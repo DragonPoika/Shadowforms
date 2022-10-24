@@ -1,1 +1,7 @@
 # Shadowforms
+
+### Shadowforms is a datapack that makes all mobs at light level 0 turn into the horrible shadowforms.
+
+![A shadowform.](https://user-images.githubusercontent.com/79696015/197573445-e898b42f-6002-4eb1-b437-e04ce5b2a449.jpeg)
+
+Shadowforms are way more powerful than normal versions of the mobs. Shadowforms are stronger and faster, and are covered in a dark smoke, hiding them in the darkness.
