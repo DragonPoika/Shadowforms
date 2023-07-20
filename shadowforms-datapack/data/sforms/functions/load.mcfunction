@@ -1,2 +1,0 @@
-scoreboard objectives add sforms.wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
-scoreboard objectives add sforms.shadowed_time dummy
