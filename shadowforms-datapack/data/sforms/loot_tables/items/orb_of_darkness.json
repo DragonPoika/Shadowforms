@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{sforms:{id:\"orb_of_darkness\"},CustomModelData:266000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sforms.orb_of_darkness",
+                "fallback": "Orb of Darkness",
+                "color": "purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.sforms.tooltip",
+                    "color": "white",
+                    "font": "sforms:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.sforms",
+                    "color": "#6a3b89",
+                    "font": "minecraft:default",
+                    "italic": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

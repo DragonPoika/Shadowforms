@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{sforms:{id:\"activated_orb_of_darkness\"},CustomModelData:266001}"
+    }
+  ]
+  
