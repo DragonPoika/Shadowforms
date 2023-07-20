@@ -1,0 +1,6 @@
+effect give @s speed 1 2 true
+effect give @s strength 1 2 true
+effect give @s invisibility 2 1 true
+particle minecraft:squid_ink ~ ~ ~ 0.5 0.5 0.5 0.01 30 force
+
+scoreboard players remove @s sforms.shadowed_time 1
