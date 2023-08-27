@@ -15,6 +15,12 @@
 				"custom_model_data": 266001
 			},
 			"model": "sforms:item/orb_of_darkness/activated"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 266002
+			},
+			"model": "sforms:item/darkened_heart"
 		}
 	]
 }

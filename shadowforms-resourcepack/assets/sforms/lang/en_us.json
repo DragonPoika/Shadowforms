@@ -3,5 +3,9 @@
     "lore.sforms.tooltip": "\ua000",
 
     "item.sforms.orb_of_darkness": "Orb of Darkness",
-    "lore.sforms.orb_of_darkness.activated": "Activated"
+    "lore.sforms.orb_of_darkness.activated": "Activated",
+    "item.sforms.darkened_heart": "Darkened Heart",
+
+    "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
+    "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform."
 }

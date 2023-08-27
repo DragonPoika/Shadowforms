@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancement.sforms.kill_shadowform"
+    },
+    "description": {
+      "translate": "advancement.sforms.kill_shadowform.description",
+      "with": [
+        {
+          "text":"\n"
+        },
+        {
+          "translate": "lore.sforms.tooltip",
+          "color": "white",
+          "font": "sforms:tooltip",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "pack.sforms",
+          "color": "#6a3b89",
+          "font": "minecraft:default",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#sforms:evil",
+          "location": {
+            "light": {
+              "light": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}
