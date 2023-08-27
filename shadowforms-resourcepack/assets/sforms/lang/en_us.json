@@ -7,5 +7,9 @@
     "item.sforms.darkened_heart": "Darkened Heart",
 
     "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
-    "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform."
+    "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform.",
+    "advancement.sforms.get_darkened_heart": "Black As Night",
+    "advancement.sforms.get_darkened_heart.description": "Obtain a Darkened Heart",
+    "advancement.sforms.get_orb_of_darkness": "It's Taking Over",
+    "advancement.sforms.get_orb_of_darkness.description": "Obtain an Orb of Darkness"
 }
