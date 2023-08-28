@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{sforms:{\"shadow_hide\"},CustomModelData:266003}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.sforms.shadow_hide",
+                  "fallback": "Shadow Hide"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {
+                      "translate": "lore.sforms.tooltip",
+                      "color": "white",
+                      "font": "sforms:tooltip",
+                      "italic": false
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "translate": "pack.sforms",
+                      "color": "#6a3b89",
+                      "font": "minecraft:default",
+                      "italic": true
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
