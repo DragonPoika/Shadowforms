@@ -1,0 +1,26 @@
+{
+    "structures": [
+      {
+        "structure": "sforms:small_garden",
+        "weight": 2
+      },
+      {
+        "structure": "sforms:medium_garden",
+        "weight": 2
+      },
+      {
+        "structure": "sforms:medium_garden_broken",
+        "weight": 1
+      },
+      {
+        "structure": "sforms:shrine",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 15,
+      "separation": 13,
+      "salt": 879438794
+    }
+  }
