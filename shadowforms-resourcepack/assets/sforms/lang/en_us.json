@@ -1,6 +1,7 @@
 {
     "pack.sforms": "Shadowforms",
     "lore.sforms.tooltip": "\ua000",
+    "chat.sforms.load": "Thanks for downloading Shadowforms! Have a great time ;)",
 
     "item.sforms.orb_of_darkness": "Orb of Darkness",
     "lore.sforms.orb_of_darkness.activated": "Activated",
