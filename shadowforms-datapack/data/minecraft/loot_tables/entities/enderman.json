@@ -29,46 +29,8 @@
             ]
           },
           {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:warped_fungus_on_a_stick",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{sforms:{id:\"darkened_heart\"},CustomModelData:266002}"
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "item.sforms.darkened_heart",
-                  "fallback": "Darkened Heart",
-                  "color": "purple",
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  [
-                    {
-                      "translate": "lore.sforms.tooltip",
-                      "color": "white",
-                      "font": "sforms:tooltip",
-                      "italic": false
-                    },
-                    {
-                      "text": " "
-                    },
-                    {
-                      "translate": "pack.sforms",
-                      "color": "#6a3b89",
-                      "font": "minecraft:default",
-                      "italic": true
-                    }
-                  ]
-                ]
-              }
-            ]
+            "type": "minecraft:loot_table",
+            "name": "sforms:darkened_heart"
           }
         ]
       }
