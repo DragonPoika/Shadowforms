@@ -38,7 +38,7 @@
               "items": [
                 "minecraft:warped_fungus_on_a_stick"
               ],
-              "nbt": "{sforms:{\"orb_of_darkness\"}}"
+              "nbt": "{sforms:{id:\"orb_of_darkness\"}}"
             }
           ]
         }
