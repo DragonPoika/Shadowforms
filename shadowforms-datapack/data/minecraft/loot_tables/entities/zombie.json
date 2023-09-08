@@ -17,7 +17,7 @@
         "target": "pools",
         "source": {
           "type": "smithed:reference",
-          "path": "pools[1]"
+          "path": "pools[0]"
         }
       }
     ]
