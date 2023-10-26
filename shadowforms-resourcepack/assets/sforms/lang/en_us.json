@@ -3,6 +3,12 @@
     "lore.sforms.tooltip": "\ua000",
     "chat.sforms.load": "Thanks for downloading Shadowforms!\nYou can click here to open the pack page! Have a great time ;)",
 
+    "chat.shadowforms.load": "Thanks for downloading §0§lShadowforms§r!\nIf you need help, check these links:\n",
+    "chat.shadowforms.dot": "§r ・",
+    "chat.shadowforms.links.discord": " §nDiscord\n",
+    "chat.shadowforms.links.smithed": " §nSmithed\n",
+    "chat.shadowforms.links.github": " §nGithub\n",
+
     "item.sforms.orb_of_darkness": "Orb of Darkness",
     "lore.sforms.orb_of_darkness.activated": "Activated",
     "item.sforms.darkened_heart": "Darkened Heart",

@@ -1,0 +1,19 @@
+{
+    "parent": "sforms:technical/parent",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{sforms:{id:\"shadow_brew\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sforms:shadow_brew/drink"
+    }
+  }

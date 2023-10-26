@@ -5,6 +5,8 @@ execute as @e[type=#sforms:evil] at @s run function sforms:mob_check
 
 # Orb of Darkness handling
 execute as @a at @s if predicate sforms:holding/orb_of_darkness if entity @s[scores={sforms.wfoas=1..}] run function sforms:orb_of_darkness
+
+# Handles turning into shadowforms
 execute as @a[scores={sforms.shadowed_time=0..}] at @s run function sforms:shadowed_player
 execute as @a[scores={sforms.shadowed_time=0}] at @s run function sforms:orb_of_darkness_remove
 

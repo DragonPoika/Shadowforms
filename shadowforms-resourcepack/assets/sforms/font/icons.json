@@ -1,0 +1,37 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "sforms:gui/icons/discord.png",
+        "ascent": 8,
+        "height": 9,
+        "chars": [
+          "\ua000"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "sforms:gui/icons/smithed.png",
+        "ascent": 8,
+        "height": 9,
+        "chars": [
+          "\ua001"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "sforms:gui/icons/github.png",
+        "ascent": 8,
+        "height": 9,
+        "chars": [
+          "\ua002"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.sforms.shadow_brew",
+                  "color": "purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {
+                      "translate": "lore.sforms.tooltip",
+                      "color": "white",
+                      "font": "sforms:tooltip",
+                      "italic": false
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "translate": "pack.sforms",
+                      "color": "#6a3b89",
+                      "font": "minecraft:default",
+                      "italic": true
+                    }
+                  ]
+                ]
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:empty"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:7147105,sforms:{id:\"shadow_brew\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
