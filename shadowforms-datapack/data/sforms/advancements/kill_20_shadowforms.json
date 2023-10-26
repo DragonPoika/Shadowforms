@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancement.sforms.kill_20_shadowforms"
+    },
+    "description": {
+      "translate": "advancement.sforms.kill_20_shadowforms.description",
+      "with": [
+        {
+          "text":"\n"
+        },
+        {
+          "translate": "lore.sforms.tooltip",
+          "color": "white",
+          "font": "sforms:tooltip",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "pack.sforms",
+          "color": "#6a3b89",
+          "font": "minecraft:default",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "parent": "sforms:kill_shadowform",
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  }
+}

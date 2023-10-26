@@ -19,5 +19,9 @@
     "advancement.sforms.get_darkened_heart": "Black As Night",
     "advancement.sforms.get_darkened_heart.description": "Obtain a Darkened Heart",
     "advancement.sforms.get_orb_of_darkness": "It's Taking Over",
-    "advancement.sforms.get_orb_of_darkness.description": "Obtain an Orb of Darkness"
+    "advancement.sforms.get_orb_of_darkness.description": "Obtain an Orb of Darkness",
+    "advancement.sforms.kill_20_shadowforms": "Serial (Shadow) Killer",
+    "advancement.sforms.kill_20_shadowforms.description": "Kill 20 shadowforms",
+    "advancement.sforms.drank_shadow_brew": "Yummy Darkness!",
+    "advancement.sforms.drank_shadow_brew.description": "Drink a bottle of Shadow Brew"
 }
