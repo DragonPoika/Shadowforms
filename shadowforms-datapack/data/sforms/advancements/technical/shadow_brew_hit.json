@@ -1,0 +1,22 @@
+{
+    "parent": "sform:",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"sforms.shadow_brew_drinker\"]}",
+            "effects": {
+              "minecraft:strength": {
+                "visible": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sforms:shadow_brew/end"
+    }
+  }
+  

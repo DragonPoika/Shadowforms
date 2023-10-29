@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion"
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:7147105}"
     },
     "title": {
       "translate": "advancement.sforms.drank_shadow_brew"

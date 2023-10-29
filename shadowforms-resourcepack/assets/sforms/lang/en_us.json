@@ -1,18 +1,18 @@
 {
     "pack.sforms": "Shadowforms",
     "lore.sforms.tooltip": "\ua000",
-    "chat.sforms.load": "Thanks for downloading Shadowforms!\nYou can click here to open the pack page! Have a great time ;)",
 
-    "chat.shadowforms.load": "Thanks for downloading §0§lShadowforms§r!\nIf you need help, check these links:\n",
-    "chat.shadowforms.dot": "§r ・",
-    "chat.shadowforms.links.discord": " §nDiscord\n",
-    "chat.shadowforms.links.smithed": " §nSmithed\n",
-    "chat.shadowforms.links.github": " §nGithub\n",
+    "chat.sforms.load": "Thanks for downloading §0§lShadowforms§r!\nIf you need help, check these links:\n",
+    "chat.sforms.dot": "§r ・",
+    "chat.sforms.links.discord": " §nDiscord\n",
+    "chat.sforms.links.smithed": " §nSmithed\n",
+    "chat.sforms.links.github": " §nGithub\n",
 
     "item.sforms.orb_of_darkness": "Orb of Darkness",
     "lore.sforms.orb_of_darkness.activated": "Activated",
     "item.sforms.darkened_heart": "Blackened Heart",
     "item.sforms.shadow_hide": "Shadow Hide",
+    "item.sforms.shadow_brew": "Shadow Brew",
 
     "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
     "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform.",
@@ -20,7 +20,7 @@
     "advancement.sforms.get_darkened_heart.description": "Obtain a Darkened Heart",
     "advancement.sforms.get_orb_of_darkness": "It's Taking Over",
     "advancement.sforms.get_orb_of_darkness.description": "Obtain an Orb of Darkness",
-    "advancement.sforms.kill_20_shadowforms": "Serial (Shadow) Killer",
+    "advancement.sforms.kill_20_shadowforms": "Shadow Slayer",
     "advancement.sforms.kill_20_shadowforms.description": "Kill 20 shadowforms",
     "advancement.sforms.drank_shadow_brew": "Yummy Darkness!",
     "advancement.sforms.drank_shadow_brew.description": "Drink a bottle of Shadow Brew"

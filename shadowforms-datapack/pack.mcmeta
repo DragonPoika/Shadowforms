@@ -1,7 +1,7 @@
 {
     "pack": {
       "id": "sforms",
-      "pack_format": 15,
+      "pack_format": 18,
       "description": "Adds shadowforms to the world. By ToastedDragon"
     }
 }

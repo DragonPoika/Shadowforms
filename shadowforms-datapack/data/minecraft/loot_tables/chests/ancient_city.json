@@ -422,11 +422,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:silence_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 8,
-          "name": "sforms:items/orb_of_darkness"
         }
       ]
     }

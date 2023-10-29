@@ -1,2 +1,2 @@
-execute if predicate sforms:in_light run function sforms:transform_weak
-execute if predicate sforms:in_dark run function sforms:transform_shadow
+execute if entity @s[tag=!sforms.strong_shadow] run function sforms:strong_shadowform_transform/check
+execute if entity @s[tag=sforms.strong_shadow] run function sforms:regular_shadowform_transform/check
