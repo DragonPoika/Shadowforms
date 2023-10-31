@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ redstone_lamp run function sforms:altair/break

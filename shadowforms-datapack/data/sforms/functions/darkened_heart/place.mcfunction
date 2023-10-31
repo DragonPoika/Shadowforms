@@ -1,4 +1,4 @@
 execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon item_display ~ ~.6 ~ {scale:[1f,1f,1f],item:{id:"warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:266002}},Tags:[sforms.placed_heart],teleport_duration:20}
-execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon item_display ~ ~.6 ~ {scale:[1f,1f,1f],item:{id:"warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:266003}},brightness:{block:15,sky:15},Tags:[sforms.placed_heart_pentagram],item_display:"head"}
+execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon item_display ~ ~.6 ~ {scale:[1f,1f,1f],item:{id:"warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:266003}},brightness:{block:15,sky:15},Tags:[sforms.placed_heart_pentagram],item_display:"head",teleport_duration:20}
 item modify entity @s weapon.mainhand sforms:remove1
 scoreboard players set @e[type=item_display,tag=sforms.placed_heart,distance=..5] sforms.placed_timer 120

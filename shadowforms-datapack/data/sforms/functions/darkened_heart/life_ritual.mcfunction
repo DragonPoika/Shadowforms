@@ -1,13 +1,4 @@
-fill ~-2 ~ ~ ~-2 ~ ~ air destroy
-particle squid_ink ~-2 ~ ~ 0 0 0 1 2 force
-
-fill ~2 ~ ~ ~2 ~ ~ air destroy
-particle squid_ink ~2 ~ ~ 0 0 0 1 2 force
-
-fill ~ ~ ~-2 ~ ~ ~-2 air destroy
-particle squid_ink ~ ~ ~-2 0 0 0 1 2 force
-
-fill ~ ~ ~2 ~ ~ ~2 air destroy
-particle squid_ink ~ ~ ~2 0 0 0 1 2 force
-
-scoreboard players set @s sforms.placed_timer -1
+effect give @e[distance=..4,type=player] darkness 1 2 true
+effect give @e[distance=..4,type=player] strength 1 1 true 
+effect give @e[distance=..4,type=player] invisibility 1 1 true
+execute as @e[distance=..4,type=player] at @s run particle minecraft:squid_ink ~ ~ ~ 0.5 0.5 0.5 0.01 30 force
