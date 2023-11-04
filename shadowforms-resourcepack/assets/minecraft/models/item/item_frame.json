@@ -9,6 +9,12 @@
 				"custom_model_data": 266000
 			},
 			"model": "sforms:block/altair"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 266001
+			},
+			"model": "sforms:block/altair_with_heart"
 		}
 	]
 }

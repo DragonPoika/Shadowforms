@@ -1,48 +1,49 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:item_frame",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:266000,sforms:{id:\"altar\"},tag:{EntityTag:{Tags:[\"sforms.altar\"]}}}"
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "block.sforms.altar"
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  [
-                    {
-                      "translate": "lore.sforms.tooltip",
-                      "color": "white",
-                      "font": "sforms:tooltip",
-                      "italic": false
-                    },
-                    {
-                      "text": " "
-                    },
-                    {
-                      "translate": "pack.sforms",
-                      "color": "#6a3b89",
-                      "font": "minecraft:default",
-                      "italic": true
-                    }
-                  ]
-                ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:266000,sforms:{id:\"altar\"},EntityTag:{Tags:[\"sforms.altar\"]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.sforms.altar",
+                "italic": false,
+                "color": "white"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.sforms.tooltip",
+                    "color": "white",
+                    "font": "sforms:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.sforms",
+                    "color": "#6a3b89",
+                    "font": "minecraft:default",
+                    "italic": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
