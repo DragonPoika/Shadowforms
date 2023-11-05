@@ -1,5 +1,5 @@
 execute if score @s sforms.placed_timer matches 0.. run function sforms:darkened_heart/timerhastime
-execute if score @s sforms.placed_timer matches 0 run function sforms:darkened_heart/remove
+execute if entity @s[scores={sforms.placed_timer=..0}] unless block ~ ~ ~ air run function sforms:darkened_heart/remove
 # Removing
 execute if score @s sforms.placed_timer matches -2 unless block ~ ~ ~ #sforms:air run function sforms:darkened_heart/remove
 # Life ritual handling

@@ -22,3 +22,5 @@ execute as @e[type=item_display,tag=sforms.altar] at @s run function sforms:alta
 execute as @e[type=item_frame,tag=sforms.altar] at @s run function sforms:altar/place
 
 scoreboard players set @a sforms.wfoas 0
+
+execute as @e[tag=sforms.strong_shadow] at @s run particle dust 1 0 0 1 ~ ~2 ~
