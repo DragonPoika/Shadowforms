@@ -3,7 +3,7 @@
     "requirement": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "forms:block/altar"
+        "recipe_id": "sforms:block/altar"
       }
     }
   },

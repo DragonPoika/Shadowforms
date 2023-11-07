@@ -1,5 +1,5 @@
 {
-    "name": "example:small_garden",
+    "name": "sforms:small_garden",
     "fallback": "minecraft:empty",
     "elements": [
       {

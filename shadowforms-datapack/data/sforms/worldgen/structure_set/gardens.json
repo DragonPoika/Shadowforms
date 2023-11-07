@@ -2,18 +2,22 @@
     "structures": [
       {
         "structure": "sforms:small_garden",
-        "weight": 2
+        "weight": 5
       },
       {
         "structure": "sforms:medium_garden",
-        "weight": 2
+        "weight": 5
       },
       {
         "structure": "sforms:medium_garden_broken",
-        "weight": 1
+        "weight": 2
       },
       {
         "structure": "sforms:shrine",
+        "weight": 2
+      },
+      {
+        "structure": "sforms:cave_house",
         "weight": 1
       }
     ],

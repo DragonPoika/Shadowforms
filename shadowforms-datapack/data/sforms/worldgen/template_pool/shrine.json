@@ -1,5 +1,5 @@
 {
-    "name": "example:shrine",
+    "name": "sforms:shrine",
     "fallback": "minecraft:empty",
     "elements": [
       {

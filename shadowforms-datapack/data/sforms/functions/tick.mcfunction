@@ -5,7 +5,7 @@ execute as @e[type=#sforms:evil,tag=!sforms.checked] run function sforms:variant
 
 # Make all hostile mobs in dark areas Shadowforms and the ones in light areas weaker
 # also adds particles to creepers and endermen
-execute as @e[type=#sforms:evil] at @s run function sforms:mob_check
+execute as @e[type=#sforms:evil] at @s unless entity @e[type=item_display,distance=..4,tag=sforms.placed_heart,scores={sforms.placed_timer=-4}] run function sforms:mob_check
 
 # Orb of Darkness handling
 execute as @a at @s if predicate sforms:holding/orb_of_darkness if entity @s[scores={sforms.wfoas=1..}] run function sforms:orb_of_darkness

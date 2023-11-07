@@ -1,2 +1,2 @@
-execute if predicate sforms:in_dark if entity @e[type=item_display,distance=4,tag=sforms.placed_heart,scores={sforms.placed_timer=-3}] run function sforms:regular_shadowform_transform/transform_shadow
+execute if predicate sforms:in_dark run function sforms:regular_shadowform_transform/transform_shadow
 execute if predicate sforms:in_light run function sforms:regular_shadowform_transform/transform_weak
