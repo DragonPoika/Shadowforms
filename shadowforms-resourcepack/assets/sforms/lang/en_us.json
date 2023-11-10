@@ -16,6 +16,8 @@
     "item.sforms.shadow_hide": "Shadow Hide",
     "item.sforms.shadow_brew": "Shadow Brew",
 
+    "death.attack.sforms.shadow_blast":"%1$s was blasted by a Shadow.",
+
     "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
     "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform.",
     "advancement.sforms.get_darkened_heart": "Black As Night",
@@ -27,5 +29,7 @@
     "advancement.sforms.drank_shadow_brew": "Yummy Darkness!",
     "advancement.sforms.drank_shadow_brew.description": "Drink a bottle of Shadow Brew",
     "advancement.sforms.altar": "Mechanical Magic",
-    "advancement.sforms.altar.description": "Craft a Mechanical Altar"
+    "advancement.sforms.altar.description": "Craft a Mechanical Altar",
+    "advancement.sforms.kill_all_shadowforms": "Yummy Darkness!",
+    "advancement.sforms.kill_all_shadowforms.description": "Drink a bottle of Shadow Brew"
 }

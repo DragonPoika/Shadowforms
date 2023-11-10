@@ -1,0 +1,1 @@
+execute as @e[distance=.1..4] run damage @s 5 sforms:shadow_blast

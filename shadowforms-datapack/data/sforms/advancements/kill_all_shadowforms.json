@@ -241,67 +241,55 @@
     },
     "requirements": [
         [
-          "minecraft:blaze"
+          "sforms:blaze"
         ],
         [
-          "minecraft:cave_spider"
+          "sforms:creeper"
         ],
         [
-          "minecraft:creeper"
+          "sforms:enderman"
         ],
         [
-          "minecraft:enderman"
+          "sforms:ghast"
         ],
         [
-          "minecraft:endermite"
+          "sforms:husk"
         ],
         [
-          "minecraft:ghast"
+          "sforms:magma_cube"
         ],
         [
-          "minecraft:hoglin"
+          "sforms:phantom"
         ],
         [
-          "minecraft:husk"
+          "sforms:silverfish"
         ],
         [
-          "minecraft:magma_cube"
+          "sforms:skeleton"
         ],
         [
-          "minecraft:phantom"
+          "sforms:slime"
         ],
         [
-          "minecraft:silverfish"
+          "sforms:spider"
         ],
         [
-          "minecraft:skeleton"
+          "sforms:stray"
         ],
         [
-          "minecraft:slime"
+          "sforms:vex"
         ],
         [
-          "minecraft:spider"
+          "sforms:wither_skeleton"
         ],
         [
-          "minecraft:stray"
+          "sforms:zoglin"
         ],
         [
-          "minecraft:vex"
+          "sforms:zombie_villager"
         ],
         [
-          "minecraft:wither_skeleton"
-        ],
-        [
-          "minecraft:zoglin"
-        ],
-        [
-          "minecraft:zombie_villager"
-        ],
-        [
-          "minecraft:zombie"
-        ],
-        [
-          "minecraft:zombified_piglin"
+          "sforms:zombie"
         ]
       ],
     "rewards": {
