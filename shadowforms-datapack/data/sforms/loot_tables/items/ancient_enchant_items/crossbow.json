@@ -13,7 +13,7 @@
                   {
                     "translate": "sforms.ancient_enchant.shadow_shot",
                     "fallback": "Shadow Shot",
-                    "color": "dark_aqua",
+                    "color": "#fc00fc",
                     "italic": false
                   }
                 ]
