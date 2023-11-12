@@ -27,13 +27,13 @@ This pack also adds new items, a new block, new structures, new enchants and mor
   </p>
 </div>
 <div align="center">
-  <h1>And more!</h1>
+  <h1>And more</h1>
   <img src="https://github.com/DragonPoika/Shadowforms/assets/79696015/964c9205-e8b9-412d-98cc-3d891644a608">
   <p align="center">
     There are even more features to unravel! 
   </p>
 </div>
 <h2>Links</h2><br><ul>
-<li>[Discord](https://discord.gg/hg7hgHPfWF)</li>
-<li>[Wiki](https://github.com/DragonPoika/Shadowforms/wiki)https://github.com/DragonPoika/Shadowforms/wiki</li>
+<li>Discord: https://discord.gg/hg7hgHPfWF </li>
+<li>Wiki: https://github.com/DragonPoika/Shadowforms/wiki</li>
 </ul>
