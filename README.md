@@ -6,6 +6,7 @@ Shadowforms are way more powerful and faster than regular mobs. but they'll get 
 This pack also adds new items, a new block, new structures, new enchants and more!</p>
 
 <div align="center">
+  <h1>Feature list</h1>
   <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/shadowforms.png">
   <p align="center">
     2 Shadowforms in a dark cave, a creeper one and an unknown one.
@@ -33,6 +34,6 @@ This pack also adds new items, a new block, new structures, new enchants and mor
   </p>
 </div>
 <h2>Links</h2><br><ul>
-<li>Discord https://discord.gg/hg7hgHPfWF</li>
-<li>Wiki https://github.com/DragonPoika/Shadowforms/wiki</li>
+<li>[Discord](https://discord.gg/hg7hgHPfWF)</li>
+<li>[Wiki](https://github.com/DragonPoika/Shadowforms/wiki)https://github.com/DragonPoika/Shadowforms/wiki</li>
 </ul>
