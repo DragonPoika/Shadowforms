@@ -32,6 +32,7 @@ This pack also adds new items, a new block, new structures, new enchants and mor
     There are even more features to unravel! 
   </p>
 </div>
-## Links<br>
-- [Discord](https://discord.gg/hg7hgHPfWF)
-- [Wiki](https://github.com/DragonPoika/Shadowforms/wiki)
+<h2>Links</h2><br><ul>
+<li>Discord https://discord.gg/hg7hgHPfWF</li>
+<li>Wiki https://github.com/DragonPoika/Shadowforms/wiki</li>
+</ul>
