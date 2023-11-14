@@ -18,6 +18,9 @@
 
     "death.attack.sforms.shadow_blast":"%1$s was blasted by a Shadow.",
 
+    "sforms.ancient_enchant.shadow_shot":"Shadow Shot",
+    "sforms.ancient_enchant.shadow_blast":"Shadow Blast",
+
     "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
     "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform.",
     "advancement.sforms.get_darkened_heart": "Black As Night",

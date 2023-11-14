@@ -1,1 +1,0 @@
-execute if predicate sforms:in_dark run function sforms:strong_shadowform_transform/transform_shadow

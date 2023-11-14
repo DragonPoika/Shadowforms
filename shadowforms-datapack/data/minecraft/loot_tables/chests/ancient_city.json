@@ -403,6 +403,71 @@
               "add": false
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "sforms:items/orb_of_darkness"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "sforms:items/shadow_brew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "sforms:ancient_enchant_items/crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 30,
+                "max": 120
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "sforms:ancient_enchant_items/iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "sforms:ancient_enchant_items/diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 30,
+                "max": 50
+              },
+              "treasure": true
+            }
+          ]
         }
       ]
     },
@@ -426,5 +491,17 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:chests/ancient_city"
+  "random_sequence": "minecraft:chests/ancient_city",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "weld:append",
+        "target": "pools",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[0]"
+        }
+      }
+    ]
+  }
 }

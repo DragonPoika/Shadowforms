@@ -12,7 +12,7 @@
                 "lore": [
                   {
                     "translate": "sforms.ancient_enchant.shadow_blast",
-                    "fallback": "Shadow Shot",
+                    "fallback": "Shadow Blast",
                     "color": "#fc00fc",
                     "italic": false
                   }
