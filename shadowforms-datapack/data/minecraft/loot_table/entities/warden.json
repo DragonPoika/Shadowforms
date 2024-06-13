@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/blackened_heart",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "light": {
+                  "light": {
+                    "min": 0,
+                    "max": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}

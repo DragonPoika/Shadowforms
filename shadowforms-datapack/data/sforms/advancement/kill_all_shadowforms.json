@@ -1,0 +1,256 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancement.sforms.kill_all_shadowforms"
+    },
+    "description": {
+      "translate": "advancement.sforms.kill_all_shadowforms.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_all_mobs",
+  "criteria": {
+    "sforms:zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sforms:blaze"
+    ],
+    [
+      "sforms:creeper"
+    ],
+    [
+      "sforms:enderman"
+    ],
+    [
+      "sforms:magma_cube"
+    ],
+    [
+      "sforms:skeleton"
+    ],
+    [
+      "sforms:slime"
+    ],
+    [
+      "sforms:spider"
+    ],
+    [
+      "sforms:stray"
+    ],
+    [
+      "sforms:wither_skeleton"
+    ],
+    [
+      "sforms:zoglin"
+    ],
+    [
+      "sforms:zombie_villager"
+    ],
+    [
+      "sforms:zombie"
+    ]
+  ],
+  "rewards": {
+    "experience": 250
+  }
+}

@@ -8,11 +8,9 @@
     "chat.sforms.links.smithed": " §nSmithed\n",
     "chat.sforms.links.github": " §nGithub\n",
 
-    "block.sforms.altar": "Mechanical Altar",
-
     "item.sforms.orb_of_darkness": "Orb of Darkness",
     "lore.sforms.orb_of_darkness.activated": "Activated",
-    "item.sforms.darkened_heart": "Blackened Heart",
+    "item.sforms.blackened_heart": "Blackened Heart",
     "item.sforms.shadow_hide": "Shadow Hide",
     "item.sforms.shadow_brew": "Shadow Brew",
 
@@ -23,16 +21,20 @@
 
     "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
     "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform.",
-    "advancement.sforms.get_darkened_heart": "Black As Night",
-    "advancement.sforms.get_darkened_heart.description": "Obtain a Darkened Heart",
+    "advancement.sforms.get_blackened_heart": "Black As Night",
+    "advancement.sforms.get_blackened_heart.description": "Obtain a Blackened Heart",
     "advancement.sforms.get_orb_of_darkness": "It's Taking Over",
     "advancement.sforms.get_orb_of_darkness.description": "Obtain an Orb of Darkness",
     "advancement.sforms.kill_20_shadowforms": "Serial (Shadow) Killer",
     "advancement.sforms.kill_20_shadowforms.description": "Kill 20 shadowforms",
     "advancement.sforms.drank_shadow_brew": "Yummy Darkness!",
     "advancement.sforms.drank_shadow_brew.description": "Drink a bottle of Shadow Brew",
-    "advancement.sforms.altar": "Mechanical Magic",
-    "advancement.sforms.altar.description": "Craft a Mechanical Altar",
+
     "advancement.sforms.kill_all_shadowforms": "Shadow Slayer",
-    "advancement.sforms.kill_all_shadowforms.description": "Kill one of every kind of shadowform"
+    "advancement.sforms.kill_all_shadowforms.description": "Kill one of every kind of shadowform",
+
+    "subtitle.sforms.blackened_heart.idle": "Blackened Heart beats",
+    "subtitle.sforms.blackened_heart.pentagram.idle": "Humming",
+    "subtitles.sforms.orb_of_darkness.break": "Orb of Darkness breaks",
+    "subtitles.sforms.orb_of_darkness.use": "Orb of Darkness activates"
 }

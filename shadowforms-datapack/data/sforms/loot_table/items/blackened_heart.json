@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.sforms.blackened_heart",
+                "fallback": "Blackened Heart",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.sforms.tooltip",
+                    "color": "white",
+                    "font": "sforms:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.sforms",
+                    "color": "#6a3b89",
+                    "font": "minecraft:default",
+                    "italic": true
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sforms:{id:\"blackened_heart\"}}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 266000
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id":"armor_stand",
+                  "Invisible":true,
+                  "Small":true,
+
+                  "Tags":["sforms.placed_heart"]
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

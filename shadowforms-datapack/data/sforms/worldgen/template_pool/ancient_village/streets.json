@@ -1,0 +1,52 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/streets/street_1",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/streets/street_2",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/streets/street_3",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/streets/street_4",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/streets/street_5",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    }
+  ]
+}

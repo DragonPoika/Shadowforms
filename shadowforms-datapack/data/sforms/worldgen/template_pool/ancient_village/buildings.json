@@ -1,0 +1,68 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/farm",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/broken_gazebo",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/gazebo",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/bridge",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/altar",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/tower",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/vault",
+        "projection": "rigid",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    }
+  ]
+}

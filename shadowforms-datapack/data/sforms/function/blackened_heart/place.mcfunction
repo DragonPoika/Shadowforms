@@ -1,0 +1,4 @@
+execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon item_display ~ ~.6 ~ {scale:[1f,1f,1f],item:{id:"armor_stand",Count:1b,components:{"minecraft:custom_model_data": 266001}},Tags:[sforms.placed_heart],teleport_duration:20}
+execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon item_display ~ ~.6 ~ {scale:[1f,1f,1f],item:{id:"armor_stand",Count:1b,components:{"minecraft:custom_model_data": 266002}},brightness:{block:15,sky:15},Tags:[sforms.placed_heart_pentagram],item_display:"head",teleport_duration:20}
+summon minecraft:interaction ~ ~ ~ {width:1f,height:1f,Tags:[sforms.placed_heart]}
+kill @s

@@ -1,0 +1,38 @@
+{
+    "pack.sforms": "छायारूप",
+    "lore.sforms.tooltip": "\ua000",
+
+    "chat.sforms.load": "§0§lछायारूपs§rडाउनलोड करने के लिए धन्यवाद!\nयदि आपको सहायता की आवश्यकता है, तो इन लिंकों को जांचें:\n",
+    "chat.sforms.dot": "§r ・",
+    "chat.sforms.links.discord": " §nDiscord\n",
+    "chat.sforms.links.smithed": " §nSmithed\n",
+    "chat.sforms.links.github": " §nGithub\n",
+
+    "item.sforms.orb_of_darkness": "अंधकार का ग्रह",
+    "lore.sforms.orb_of_darkness.activated": "सक्रिय",
+    "item.sforms.blackened_heart": "अंधकारमय हृदय",
+    "item.sforms.shadow_hide": "छायादार चमड़ा",
+    "item.sforms.shadow_brew": "छायादार औषधि",
+
+    "death.attack.sforms.shadow_blast":"%1$s एक छाया द्वारा विस्फोट से मर गया।",
+
+    "sforms.ancient_enchant.shadow_shot":"छायादार शॉट",
+    "sforms.ancient_enchant.shadow_blast":"छायादार स्फोटकता",
+
+    "advancement.sforms.kill_shadowform": "अन-डी-लाइटफुल को डी-शैडो किया",
+    "advancement.sforms.kill_shadowform.description": "एक छायारूप को सफलतापूर्वक हत्या कर दी गई।",
+    "advancement.sforms.get_blackened_heart": "रात जैसी काली",
+    "advancement.sforms.get_blackened_heart.description": "एक अंधकारमय हृदय प्राप्त करें।",
+    "advancement.sforms.get_orb_of_darkness": "यह हावी हो रहा है।",
+    "advancement.sforms.get_orb_of_darkness.description": "एक अंधकार का ग्रह प्राप्त करें।",
+    "advancement.sforms.kill_20_shadowforms": "सीरियल (शैडो) किलर",
+    "advancement.sforms.kill_20_shadowforms.description": "20 छायारूप को मारो",
+    "advancement.sforms.drank_shadow_brew": "स्वादिष्ट अंधेरा!",
+    "advancement.sforms.drank_shadow_brew.description": "छायादार औषधि की एक बोतल पियें",
+
+    "advancement.sforms.kill_all_shadowforms": "छायारूप बध करनेवाला",
+    "advancement.sforms.kill_all_shadowforms.description": "हर एक तरह के छायारूप को मारो",
+
+    "subtitle.sforms.blackened_heart.idle": "अंधकारमय दिल की धडकने",
+    "subtitle.sforms.blackened_heart.pentagram.idle": "गुंजन"
+}

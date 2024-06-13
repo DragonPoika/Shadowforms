@@ -1,0 +1,39 @@
+{
+    "block.blackened_heart.idle": {
+      "sounds": [
+          {
+            "name": "sforms:block/blackened_heart/idle",
+            "volume": 1,
+            "stream": true
+          }
+      ],
+      "subtitle": "Blackened Heart beats"
+    },
+    "block.blackened_heart.pentagram.idle": {
+      "sounds": [
+          {
+            "name": "sforms:block/blackened_heart/pentagram/idle",
+            "volume": 0.2,
+            "stream": true
+          }
+      ],
+      "subtitle": "Humming"
+    },
+    "item.orb_of_darkness.break": {
+      "sounds": [
+        "block/respawn_anchor/deplete1",
+        "block/respawn_anchor/deplete2"
+      ],
+      "volume": 1,
+      "subtitle": "subtitles.sforms.orb_of_darkness.break"
+  },
+  "item.orb_of_darkness.use": {
+    "sounds": [
+      "block/respawn_anchor/charge1",
+      "block/respawn_anchor/charge2",
+      "block/respawn_anchor/charge3"
+    ],
+    "volume": 1,
+   "subtitle": "subtitles.sforms.orb_of_darkness.use"
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "predicates": {
+          "minecraft:custom_data": "{sforms:{id:'shadow_blast_leggings'}}"
+        }
+      }
+    }
+  }
+}

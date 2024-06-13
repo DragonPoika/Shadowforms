@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 266000,
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water",
+          "custom_color": 16777215
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.sforms.drank_shadow_brew"
+    },
+    "description": {
+      "translate": "advancement.sforms.drank_shadow_brew.description",
+      "with": [
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "lore.sforms.tooltip",
+          "color": "white",
+          "font": "sforms:tooltip",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "pack.sforms",
+          "color": "#6a3b89",
+          "font": "minecraft:default",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": "{sforms:{id:'shadow_brew'}}"
+          }
+        }
+      }
+    }
+  }
+}

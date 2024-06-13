@@ -1,0 +1,16 @@
+{
+	"values":[
+ 		"minecraft:blaze",
+                "minecraft:creeper",
+                "minecraft:enderman",
+                "minecraft:magma_cube",
+                "minecraft:skeleton",
+                "minecraft:slime",
+                "minecraft:stray",
+                "minecraft:wither_skeleton",
+                "minecraft:zoglin",
+                "minecraft:zombie",
+                "minecraft:zombie_villager",
+                "minecraft:spider"
+	]
+}

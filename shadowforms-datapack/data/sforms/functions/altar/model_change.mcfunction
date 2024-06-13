@@ -1,4 +1,0 @@
-execute if block ~ ~-1 ~ redstone_lamp[lit=false] if entity @s[tag=!sforms.altar_has_heart] run data merge entity @s {item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:266000}}}
-execute if block ~ ~-1 ~ redstone_lamp[lit=false] if entity @s[tag=sforms.altar_has_heart] run data merge entity @s {item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:266001}}}
-execute if block ~ ~-1 ~ redstone_lamp[lit=true] if entity @s[tag=!sforms.altar_has_heart] run data merge entity @s {item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:266002}}}
-execute if block ~ ~-1 ~ redstone_lamp[lit=true] if entity @s[tag=sforms.altar_has_heart] run data merge entity @s {item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:266003}}}

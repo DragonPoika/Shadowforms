@@ -1,0 +1,2 @@
+#execute at @s positioned ^ ^3 ^ as @e[type=#sforms:shadow_slice_damages,distance=..3] at @s run function sforms:ancient_enchantments/shadow_slice/damage
+advancement revoke @s only sforms:technical/ancient_enchantment/shadow_slice
