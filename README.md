@@ -26,6 +26,9 @@ This pack also adds new items, new structures, new enchants and more!</p>
     Shadowforms Lite is a shadowforms version with just the base mechanic of Shadowform transformation. Download latest version here.
   </p>
 </div>
+<h2>Shadowforms Lite</h2>
+Shadowforms Lite is a bare bones version of Shadowforms with only the transformation feature and Strong Shadows.
+You can download it <a href="https://github.com/DragonPoika/Shadowforms/releases/download/1.5.0/sforms-lite.zip">here</a>!
 <h2>Links</h2><ul><br>
 <li><a href="https://discord.gg/hg7hgHPfWF">Discord</a></li>
 <li><a href="https://github.com/DragonPoika/Shadowforms/wiki">Wiki</a></li>
