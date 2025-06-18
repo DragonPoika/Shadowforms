@@ -1,40 +1,69 @@
 {
     "pack.sforms": "Shadowforms",
+    "chat.sforms.version": "As the Sun Rose / v1.6.0",
+    "chat.sforms.description": "Extensive datapack that makes all mobs at light level 0 turn into shadowforms, as well as adding features centered around this mechanic",
     "lore.sforms.tooltip": "\ua000",
+    "chat.sforms.debug_prefix": "[Shadowforms debug] ",
 
-    "chat.sforms.load": "Thanks for downloading §0§lShadowforms§r!\nIf you need help, check these links:\n",
+    "chat.sforms.load1": "Thanks for downloading ",
+    "chat.sforms.load2": "! If you need help, check out these links:\n",
     "chat.sforms.dot": "§r ・",
     "chat.sforms.links.discord": " §nDiscord\n",
+    "chat.sforms.links.discord.icon": "\ua000",
+    "chat.sforms.links.discord.redirect" : "Discord ",
     "chat.sforms.links.smithed": " §nSmithed\n",
+    "chat.sforms.links.smithed.icon": "\ua001",
+    "chat.sforms.links.smithed.redirect": "Smithed ",
     "chat.sforms.links.github": " §nGithub\n",
+    "chat.sforms.links.github.icon": "\ua002",
+    "chat.sforms.links.github.redirect": "Github ",
+    "chat.sforms.links.redirect_icon": "\ua003",
+
+    "chat.sforms.incorrect_version_warning": "/!\\ It seems that you are using the wrong version of Minecraft Java for this version of Shadowforms. Please change to release 1.21.6, or things might break.",
 
     "item.sforms.orb_of_darkness": "Orb of Darkness",
     "lore.sforms.orb_of_darkness.activated": "Activated",
     "item.sforms.blackened_heart": "Blackened Heart",
     "item.sforms.shadow_hide": "Shadow Hide",
     "item.sforms.shadow_brew": "Shadow Brew",
+    "item.sforms.sacrificial_heart": "Sacrificial Heart",
+    "item.sforms.sacrificial_heart.heart_of": "Heart of %s",
+
+    "music_disc.sforms.macabre": "Camille Saint-Saëns - Danse Macabre",
 
     "death.attack.sforms.shadow_blast":"%1$s was blasted by a Shadow.",
+    "death.attack.sforms.blood_sacrifice":"%1$s wasn't plentiful enough in blood.",
 
     "sforms.ancient_enchant.shadow_shot":"Shadow Shot",
     "sforms.ancient_enchant.shadow_blast":"Shadow Blast",
 
     "advancement.sforms.kill_shadowform": "De-shadowed the Un-de-lightful",
-    "advancement.sforms.kill_shadowform.description": "Successfully kill a shadowform.",
+    "advancement.sforms.kill_shadowform.description": "Successfully kill a Shadowform.",
     "advancement.sforms.get_blackened_heart": "Black As Night",
-    "advancement.sforms.get_blackened_heart.description": "Obtain a Blackened Heart",
+    "advancement.sforms.get_blackened_heart.description": "Obtain a Blackened Heart by killing a Strong Shadow",
+    "advancement.sforms.kill_strong_shadow": "The brightest flame casts the darkest shadows",
+    "advancement.sforms.kill_strong_shadow.description": "Successfully kill a Strong Shadow.",
     "advancement.sforms.get_orb_of_darkness": "It's Taking Over",
     "advancement.sforms.get_orb_of_darkness.description": "Obtain an Orb of Darkness",
     "advancement.sforms.kill_20_shadowforms": "Serial (Shadow) Killer",
-    "advancement.sforms.kill_20_shadowforms.description": "Kill 20 shadowforms",
+    "advancement.sforms.kill_20_shadowforms.description": "Kill 20 Shadowform",
     "advancement.sforms.drank_shadow_brew": "Yummy Darkness!",
     "advancement.sforms.drank_shadow_brew.description": "Drink a bottle of Shadow Brew",
-
     "advancement.sforms.kill_all_shadowforms": "Shadow Slayer",
-    "advancement.sforms.kill_all_shadowforms.description": "Kill one of every kind of shadowform",
+    "advancement.sforms.kill_all_shadowforms.description": "Kill one of every kind of Shadowform",
+    "advancement.sforms.find_pale_garden": "A Pale Perspective",
+    "advancement.sforms.find_pale_garden.description": "Find a Pale Garden.",
+    "advancement.sforms.find_pale_garden_altar": "Monochromatic",
+    "advancement.sforms.find_pale_garden_altar.description": "Find a Pale Garden Altar.",
+    
+    "particles.sforms.blood": "\ua000",
 
     "subtitle.sforms.blackened_heart.idle": "Blackened Heart beats",
     "subtitle.sforms.blackened_heart.pentagram.idle": "Humming",
+    "subtitles.sforms.blackened_heart.blood_sacrifice": "Player gives a blood sacrifice",
     "subtitles.sforms.orb_of_darkness.break": "Orb of Darkness breaks",
-    "subtitles.sforms.orb_of_darkness.use": "Orb of Darkness activates"
+    "subtitles.sforms.orb_of_darkness.use": "Orb of Darkness activates",
+    "subtitle.sforms.sacrificial_heart.idle": "Sacrificial Heart beats",
+    "subtitle.sforms.sacrificial_heart.equip": "Sacrificial Heart gets equipped",
+    "subtitles.sforms.shadowform.exit": "Player exits Shadowform"
 }

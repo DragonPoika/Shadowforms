@@ -1,0 +1,2 @@
+summon text_display ~ ~ ~ {billboard:"center",alignment:"center",background:16777215,Tags:[sforms.particle.pentagram],brightness:{block:15,sky:15},teleport_duration:5}
+execute as @n[type=text_display,tag=sforms.particle.pentagram] store result score @s sforms.particle.pentagram run random value 0..3

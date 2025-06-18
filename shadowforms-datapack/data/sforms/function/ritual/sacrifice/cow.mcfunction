@@ -1,0 +1,1 @@
+playsound sforms:item.athame.sacrifice.use block @a ~ ~ ~

@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "custom_data": "{sforms:{id:\"resistance_item\"}}"
+        }
+      }
+    }
+  }
+}

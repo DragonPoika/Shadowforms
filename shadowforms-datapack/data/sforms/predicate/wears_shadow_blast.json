@@ -5,7 +5,9 @@
     "equipment": {
       "legs": {
         "predicates": {
-          "minecraft:custom_data": "{sforms:{id:'shadow_blast_leggings'}}"
+          "enchantments": [{
+            "enchantments": "sforms:shadow_blast"
+          }]
         }
       }
     }

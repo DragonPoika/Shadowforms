@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"chat.sforms.debug_prefix","color":"yellow","bold":true},{"translate":"chat.sforms.incorrect_version_warning","color":"yellow","bold":false}]

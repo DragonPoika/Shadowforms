@@ -1,0 +1,43 @@
+{
+    "model": {
+        "type": "minecraft:composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/1"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/2"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/3"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/4"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/5"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/6"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/7"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/8"
+            },
+            {
+                "type": "model",
+                "model": "sforms:block/blackened_heart/beating/9"
+            }
+        ]
+    }
+}

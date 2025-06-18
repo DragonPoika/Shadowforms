@@ -2,9 +2,9 @@ scoreboard objectives add sforms.wfoas minecraft.used:minecraft.warped_fungus_on
 scoreboard objectives add sforms.shadowed_time dummy
 scoreboard objectives add sforms.shadowforms_killed dummy
 scoreboard objectives add sforms.heart_ritual dummy
-scoreboard objectives add sforms.temp dummy
 scoreboard objectives add sforms.used_armor_stand used:armor_stand
-# scoreboard objectives add sforms.particle.shadow_slice dummy
+scoreboard objectives add sforms.particle.pentagram dummy
+scoreboard objectives add sforms.particle.random dummy
 
 function sforms:10t_clock
 function sforms:2s_clock

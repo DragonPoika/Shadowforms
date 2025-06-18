@@ -1,33 +1,17 @@
 {
   "display": {
-    "icon": {
-      "id": "minecraft:armor_stand",
+"icon": {
+      "id": "minecraft:barrier",
+      "count": 1,
       "components": {
-        "minecraft:custom_model_data": 266000
+        "minecraft:item_model": "sforms:blackened_heart"
       }
     },
     "title": {
       "translate": "advancement.sforms.get_blackened_heart"
     },
     "description": {
-      "translate": "advancement.sforms.get_blackened_heart.description",
-      "with": [
-        {
-          "translate": "lore.sforms.tooltip",
-          "color": "white",
-          "font": "sforms:tooltip",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "pack.sforms",
-          "color": "#6a3b89",
-          "font": "minecraft:default",
-          "italic": true
-        }
-      ]
+      "translate": "advancement.sforms.get_blackened_heart.description"
     }
   },
   "parent": "sforms:kill_shadowform",
@@ -37,9 +21,6 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:armor_stand"
-            ],
             "predicates": {
               "minecraft:custom_data": "{sforms:{id:'blackened_heart'}}"
             }

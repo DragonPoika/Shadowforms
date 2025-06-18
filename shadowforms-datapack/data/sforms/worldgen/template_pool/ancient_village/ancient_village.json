@@ -5,9 +5,9 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/village_center",
+        "location": "sforms:ancient_village/town_center",
         "projection": "rigid",
-        "processors": "minecraft:ancient_city_start_degradation"
+        "processors": "minecraft:empty"
       }
     }
   ]

@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "front": "sforms:block/altar_front_with_heart",
-    "side": "sforms:block/altar_side",
-    "top": "sforms:block/altar_top",
-    "bottom": "sforms:block/altar_bottom"
-  }
-}

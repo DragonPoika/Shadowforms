@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/sacrificial_heart/goat"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_sword",
+                "predicates": {
+                  "minecraft:custom_data": "{sforms:{id:\"athame\"}}"
+                }
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:goat",
+            "location": {
+              "structures": "sforms:pale_garden_altar"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/goat",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "smithed:append",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0]"
+        }
+      }
+    ]
+  }
+}

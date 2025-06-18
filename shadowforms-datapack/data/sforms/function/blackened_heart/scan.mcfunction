@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=sforms.placed_heart] at @s run function sforms:blackened_heart/place

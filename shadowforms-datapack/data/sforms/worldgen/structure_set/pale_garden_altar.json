@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sforms:pale_garden_altar",
+      "weight": 1 
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 5,
+    "salt": 293847
+  }
+}

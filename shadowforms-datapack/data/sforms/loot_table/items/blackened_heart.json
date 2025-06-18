@@ -44,8 +44,10 @@
               "tag": "{sforms:{id:\"blackened_heart\"}}"
             },
             {
-              "function": "minecraft:set_custom_model_data",
-              "value": 266000
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sforms:blackened_heart"
+              }
             },
             {
               "function": "minecraft:set_components",
@@ -54,7 +56,6 @@
                   "id":"armor_stand",
                   "Invisible":true,
                   "Small":true,
-
                   "Tags":["sforms.placed_heart"]
                 },
                 "minecraft:rarity": "uncommon"

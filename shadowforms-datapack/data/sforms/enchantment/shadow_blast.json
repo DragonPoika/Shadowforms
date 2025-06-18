@@ -1,0 +1,44 @@
+{
+  "description": {
+    "translate": "sforms.ancient_enchant.shadow_blast",
+    "fallback": "Shadow Blast",
+    "color": "dark_aqua"
+  },
+  "supported_items": [
+    "minecraft:chainmail_chestplate",
+    "minecraft:golden_chestplate",
+    "netherite_chestplate",
+    "minecraft:diamond_chestplate",
+    "iron_chestplate",
+    "leather_chestplate"
+  ],
+  "primary_items": [
+    "minecraft:crossbow"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "sforms:items/ancient_enchantments/shadow_blast"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

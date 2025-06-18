@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "sforms:sacrificial_heart"
+      }
+    },
+    "title": {
+      "translate": "advancement.sforms.equip_sacrificial_heart"
+    },
+    "description": {
+      "translate": "advancement.sforms.equip_sacrificial_heart.description"
+  }},
+  "parent": "sforms:find_pale_garden_altar",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "armor.chest": {
+              "items": "minecraft:poisonous_potato",
+              "predicates": {
+                "minecraft:custom_data": "{sforms:{id:\"sacricial_heart\"}}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "contents": {
+                "components": {
+                    "custom_data": {"sforms":{"id":"sacrificial_heart"}}
+                }
+            }
+        }
+    }
+}

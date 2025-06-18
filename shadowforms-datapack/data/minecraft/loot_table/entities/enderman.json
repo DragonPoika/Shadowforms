@@ -10,18 +10,24 @@
           "value": "sforms:items/blackened_heart",
           "conditions": [
             {
-              "condition": "minecraft:location_check",
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
               "predicate": {
-                "light": {
-                  "light": {
-                    "min": 0,
-                    "max": 1
-                  }
-                }
+                "nbt": "{Tags:[sforms.strong_shadow]}"
               }
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.4
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
@@ -49,5 +55,17 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:entities/enderman"
+  "random_sequence": "minecraft:entities/enderman",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "smithed:append",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0]"
+        }
+      }
+    ]
+  }
 }

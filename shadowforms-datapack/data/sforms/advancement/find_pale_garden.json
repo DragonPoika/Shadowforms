@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": {
+      "translate": "advancement.sforms.find_pale_garden"
+    },
+    "description": {
+      "translate": "advancement.sforms.find_pale_garden.description"
+    }
+  },
+  "parent": "sforms:kill_shadowform",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "pale_garden"
+          }
+        }
+      }
+    }
+  }
+}

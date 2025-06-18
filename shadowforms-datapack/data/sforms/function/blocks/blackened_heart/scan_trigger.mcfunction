@@ -1,0 +1,1 @@
+execute as @e[tag=sforms.placed_heart.midanimation] at @s run function sforms:blocks/blackened_heart/ritual/scan

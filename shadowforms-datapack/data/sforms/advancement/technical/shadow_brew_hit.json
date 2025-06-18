@@ -1,22 +1,17 @@
 {
-    "parent": "sform:",
+    "parent": "sforms:technical/parent",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
           "player": {
-            "nbt": "{Tags:[\"sforms.shadow_brew_drinker\"]}",
-            "effects": {
-              "minecraft:strength": {
-                "visible": false
-              }
-            }
+            "nbt": "{Tags:[\"sforms.shadow_brew_drinker\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "sforms:shadow_brew/end"
+      "function": "sforms:items/shadow_brew/end"
     }
   }
   

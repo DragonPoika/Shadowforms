@@ -1,0 +1,20 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "sforms:misc/runes.png",
+        "ascent": 7,
+        "chars": [
+          "012345",
+          "6789ab",
+          "cdefgh"
+        ]
+      }
+    ]
+  }

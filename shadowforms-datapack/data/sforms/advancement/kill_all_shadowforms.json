@@ -1,10 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_sword",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
+      "id": "minecraft:mace"
     },
     "title": {
       "translate": "advancement.sforms.kill_all_shadowforms"
@@ -17,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:adventure/kill_all_mobs",
+  "parent": "sforms:kill_20_shadowforms",
   "criteria": {
     "sforms:zombie": {
       "trigger": "minecraft:player_killed_entity",
@@ -163,22 +160,6 @@
         }
       }
     },
-    "sforms:zoglin": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:zoglin",
-          "stepping_on": {
-            "light": {
-              "light": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          }
-        }
-      }
-    },
     "sforms:zombie_villager": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -200,6 +181,54 @@
       "conditions": {
         "entity": {
           "type": "minecraft:enderman",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:bogged": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bogged",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "stepping_on": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sforms:husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
           "stepping_on": {
             "light": {
               "light": {
@@ -241,13 +270,19 @@
       "sforms:wither_skeleton"
     ],
     [
-      "sforms:zoglin"
-    ],
-    [
       "sforms:zombie_villager"
     ],
     [
       "sforms:zombie"
+    ],
+    [
+      "sforms:bogged"
+    ],
+    [
+      "sforms:cave_spider"
+    ],
+    [
+      "sforms:husk"
     ]
   ],
   "rewards": {

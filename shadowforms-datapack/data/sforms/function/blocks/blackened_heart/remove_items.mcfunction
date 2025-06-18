@@ -1,0 +1,3 @@
+particle smoke
+
+kill @s

@@ -32,6 +32,15 @@
         "chars": [
           "\ua002"
         ]
+      },
+      {
+        "type": "bitmap",
+        "file": "sforms:gui/icons/redirect.png",
+        "ascent": 8,
+        "height": 9,
+        "chars": [
+          "\ua003"
+        ]
       }
     ]
   }

@@ -1,39 +1,76 @@
 {
-    "block.blackened_heart.idle": {
-      "sounds": [
-          {
-            "name": "sforms:block/blackened_heart/idle",
-            "volume": 1,
-            "stream": true
-          }
-      ],
-      "subtitle": "Blackened Heart beats"
-    },
-    "block.blackened_heart.pentagram.idle": {
-      "sounds": [
-          {
-            "name": "sforms:block/blackened_heart/pentagram/idle",
-            "volume": 0.2,
-            "stream": true
-          }
-      ],
-      "subtitle": "Humming"
-    },
-    "item.orb_of_darkness.break": {
-      "sounds": [
-        "block/respawn_anchor/deplete1",
-        "block/respawn_anchor/deplete2"
-      ],
-      "volume": 1,
-      "subtitle": "subtitles.sforms.orb_of_darkness.break"
+  "block.blackened_heart.idle": {
+    "sounds": [
+      {
+        "name": "sforms:block/blackened_heart/idle",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.sforms.blackened_heart.idle"
+  },
+  "block.blackened_heart.pentagram.idle": {
+    "sounds": [
+      "sforms:block/blackened_heart/pentagram/idle"
+    ],
+    "subtitle": "subtitle.sforms.blackened_heart.pentagram.idle"
+  },
+  "block.blackened_heart.blood_sacrifice": {
+    "sounds": [
+      "sforms:block/blackened_heart/blood_sacrifice"
+    ],
+   "subtitle": "subtitles.sforms.blackened_heart.blood_sacrifice"
+  },
+  "item.sacrificial_heart.idle": {
+    "sounds": [
+      {
+        "name": "sforms:item/sacrificial_heart/idle",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.sforms.sacrificial_heart.idle"
+  },
+  "item.sacrificial_heart.equip": {
+    "sounds": [
+      "sforms:item/sacrificial_heart/equip"
+    ],
+    "subtitle": "subtitle.sforms.sacrificial_heart.equip"
+  },
+  "item.orb_of_darkness.break": {
+    "sounds": [
+      "sforms:item/orb_of_darkness/break"
+    ],    "subtitle": "subtitles.sforms.orb_of_darkness.break"
   },
   "item.orb_of_darkness.use": {
     "sounds": [
-      "block/respawn_anchor/charge1",
-      "block/respawn_anchor/charge2",
-      "block/respawn_anchor/charge3"
+      "sforms:item/orb_of_darkness/activate1",
+      "sforms:item/orb_of_darkness/activate2",
+      "sforms:item/orb_of_darkness/activate3"
     ],
-    "volume": 1,
-   "subtitle": "subtitles.sforms.orb_of_darkness.use"
- }
+   "subtitle": "subtitles.entity.generic.drink​"
+  },
+  "item.shadow_brew.consume": {
+    "sounds": [
+      "sforms:item/shadow_brew/consume"
+    ],
+    "subtitle": "subtitles.sforms.shadow_brew.consume"
+  },
+  "entity.shadowform.exit": {
+    "sounds": [
+      "sforms:entity/shadowform/exit"
+    ],
+   "subtitle": "subtitles.sforms.shadowform.exit"
+  },
+  "music_disc.macabre": {
+    "sounds": [
+      "sforms:music/macabre"
+    ]
+  },
+
+  "music.menu": {
+    "sounds": [
+      "sforms:music/gnossienne",
+      "sforms:music/reverie",
+      "sforms:music/nocturne"
+    ]
+  }
 }

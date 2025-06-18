@@ -1,19 +1,21 @@
 {
-    "parent": "sforms:technical/parent",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "items": [
-              "minecraft:potion"
-            ],
-            "nbt": "{sforms:{id:\"shadow_brew\"}}"
+  "parent": "sforms:technical/parent",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ],
+          "components": {
+            "custom_data": "{sforms:{id:\"shadow_brew\"}}"
           }
         }
       }
-    },
-    "rewards": {
-      "function": "sforms:shadow_brew/drink"
     }
+  },
+  "rewards": {
+    "function": "sforms:items/shadow_brew/drink"
   }
+}

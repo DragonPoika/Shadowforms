@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{sforms:{id:\"orb_of_darkness\"}}"
+          "components": {
+            "custom_data": "{sforms:{id:\"orb_of_darkness\"}}"
+          }
         }
       }
     }

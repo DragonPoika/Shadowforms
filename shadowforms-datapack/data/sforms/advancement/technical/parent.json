@@ -1,5 +1,4 @@
 {
-  "parent": "sforms:technical/parent",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

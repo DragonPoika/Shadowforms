@@ -1,7 +1,7 @@
 {
   "pack": {
     "id": "sforms",
-    "pack_format": 34,
-    "description": [{"text":"Shadowforms "},   {"text":"\nby ToastedDragon","italic":true}]
+    "pack_format": 63,
+    "description": [{"text":"Shadowforms v1.6.0\n"},{"text":"As the Sun Rose","color":"dark_red"}]
   }
 }

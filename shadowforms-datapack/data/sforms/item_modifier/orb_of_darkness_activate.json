@@ -1,12 +1,8 @@
 [
   {
-    "function": "minecraft:set_custom_model_data",
-    "value": 266001
-  },
-  {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:enchantment_glint_override": true
+      "item_model": "sforms:orb_of_darkness/activated"
     }
   },
   {

@@ -1,5 +1,7 @@
 {
     "values": [
-       "sforms:tick"
+       "sforms:tick",
+       "sforms:blocks/tick",
+       "sforms:entities/tick"
     ]
   }

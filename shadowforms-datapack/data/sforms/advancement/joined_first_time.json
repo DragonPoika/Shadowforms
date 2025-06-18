@@ -1,11 +1,23 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:tick"
-      }
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
     },
-    "rewards": {
-      "function": "sforms:joined_first_time"
+    "title": {
+      "translate": "pack.sforms"
+    },
+    "description": {
+      "translate": "chat.sforms.description"
+    },
+    "background": "minecraft:block/deepslate",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "function": "sforms:joined_first_time"
   }
-  
+}

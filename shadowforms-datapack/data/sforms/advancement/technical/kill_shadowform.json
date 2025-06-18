@@ -8,7 +8,10 @@
               "type": "#sforms:evil",
               "location": {
                 "light": {
-                  "light": 0
+                  "light": {
+                    "max": 1,
+                    "min": 0
+                  }
                 }
               }
             }
@@ -16,6 +19,6 @@
         }
       },
   "rewards": {
-    "function": "sforms:kill_shadowform"
+    "function": "sforms:entities/shadowforms/kill_shadowform"
   }
 }

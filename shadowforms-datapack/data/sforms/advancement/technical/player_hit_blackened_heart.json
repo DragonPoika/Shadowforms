@@ -10,7 +10,6 @@
       }
     },
     "rewards": {
-      "function": "sforms:blackened_heart/player_hit"
+      "function": "sforms:blocks/blackened_heart/player_hit"
     }
   }
-  

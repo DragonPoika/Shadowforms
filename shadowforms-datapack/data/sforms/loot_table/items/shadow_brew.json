@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -31,7 +31,6 @@
                   },
                   {
                     "translate": "pack.sforms",
-                    "fallback": "Shadowforms",
                     "color": "#6a3b89",
                     "font": "minecraft:default",
                     "italic": true
@@ -45,16 +44,20 @@
               "tag": "{sforms:{id:\"shadow_brew\"}}"
             },
             {
-              "function": "minecraft:set_custom_model_data",
-              "value": 266000
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sforms:shadow_brew",
+                "!minecraft:food": {}
+              }
             },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:potion_contents": {
-                  "potion": "minecraft:water",
-                  "custom_color": 16777215
+                "minecraft:consumable": {
+                  "animation": "drink",
+                  "has_consume_particles": false,
+                  "sound": {"sound_id": "sforms.item.shadow_brew.consume"}
                 },
                 "minecraft:rarity": "uncommon"
               }

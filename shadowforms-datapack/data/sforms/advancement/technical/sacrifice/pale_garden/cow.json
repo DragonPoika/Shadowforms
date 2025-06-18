@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:iron_sword",
+              "count": 1,
+              "components": {
+                "minecraft:custom_data": "{sforms:{id:\"athame\"}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:cow",
+          "location": {
+            "structures": "sforms:pale_garden_altar"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cow"
+    ]
+  ],
+  "rewards": {
+    "function": "sforms:ritual/sacrifice/cow",
+    "experience": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "description": {
+    "translate": "sforms.ancient_enchant.shadow_slice",
+    "fallback": "Shadow Slice",
+    "color": "dark_aqua"
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "light": {
+                "light": {
+                  "max": 1,
+                  "min": 0
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ]
+  }
+}
