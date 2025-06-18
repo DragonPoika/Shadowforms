@@ -1,0 +1,9 @@
+{
+  "music.menu": {
+    "sounds": [
+      "sforms:music/gnossienne",
+      "sforms:music/reverie",
+      "sforms:music/nocturne"
+    ]
+  }
+}
