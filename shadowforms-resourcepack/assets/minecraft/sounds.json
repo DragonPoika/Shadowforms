@@ -1,5 +1,6 @@
 {
   "music.menu": {
+    "replace": true,
     "sounds": [
       "sforms:music/gnossienne",
       "sforms:music/reverie",

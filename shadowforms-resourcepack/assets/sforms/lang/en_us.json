@@ -30,6 +30,9 @@
     "item.sforms.sacrificial_heart.heart_of": "Heart of %s",
 
     "music_disc.sforms.macabre": "Camille Saint-Saëns - Danse Macabre",
+    "sforms.music.gnossienne": "Erik Satie - Gnossienne",
+    "sforms.music.nocturne": "Frederic Chopin - Nocturne",
+    "sforms.music.reverie": "Claude Debussy - Rêverie",
 
     "death.attack.sforms.shadow_blast":"%1$s was blasted by a Shadow.",
     "death.attack.sforms.blood_sacrifice":"%1$s wasn't plentiful enough in blood.",
