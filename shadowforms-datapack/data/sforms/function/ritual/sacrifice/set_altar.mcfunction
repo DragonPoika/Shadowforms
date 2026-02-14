@@ -1,0 +1,1 @@
+execute if function sforms:ritual/sacrifice/check_altar align xyz positioned ~.5 ~ ~.5 run function sforms:ritual/sacrifice/init_altar

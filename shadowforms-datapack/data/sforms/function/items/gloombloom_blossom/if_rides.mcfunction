@@ -1,0 +1,1 @@
+execute on vehicle as @s run return 1

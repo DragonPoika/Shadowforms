@@ -1,25 +1,20 @@
 {
   "pack": {
     "id": "sforms",
-    "pack_format": 80,
-    "description": [{"text":"Shadowforms v1.6.0\n"},{"text":"As the Sun Rose","color":"dark_red"}]
-  },
-  "overlays": {
-    "entries": [
+    "description": [
       {
-        "formats": {
-          "min_inclusive": 81,
-          "max_inclusive": 2147483647
-        },
-        "directory": "invalid_version"
+        "text": "Shadowforms: Compis Mentis\n",
+        "color": "#c6bde9"
       },
       {
-        "formats": {
-          "min_inclusive": 1,
-          "max_inclusive": 79
-        },
-        "directory": "invalid_version"
+        "text": "v1.7.0",
+        "color": "gray"
       }
-    ]
+    ],
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
   }
 }

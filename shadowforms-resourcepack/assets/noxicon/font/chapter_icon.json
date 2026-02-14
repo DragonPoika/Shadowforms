@@ -1,0 +1,56 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\ua069": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/chapter_icon/shadowforms.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        "\ua001"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "noxicon:gui/chapter_icon/items.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        "\ua002"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "noxicon:gui/chapter_icon/world.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        "\ua003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/chapter_icon/ritual.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        "\ua004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/lock.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        "\ua005"
+      ]
+    }
+  ]
+}

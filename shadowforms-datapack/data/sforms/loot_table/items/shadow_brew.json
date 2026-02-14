@@ -12,32 +12,8 @@
               "target": "item_name",
               "name": {
                 "translate": "item.sforms.shadow_brew",
-                "fallback": "Shadow Brew",
                 "italic": false
               }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                [
-                  {
-                    "translate": "lore.sforms.tooltip",
-                    "color": "white",
-                    "font": "sforms:tooltip",
-                    "italic": false
-                  },
-                  {
-                    "text": " "
-                  },
-                  {
-                    "translate": "pack.sforms",
-                    "color": "#6a3b89",
-                    "font": "minecraft:default",
-                    "italic": true
-                  }
-                ]
-              ],
-              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_custom_data",
@@ -59,8 +35,13 @@
                   "has_consume_particles": false,
                   "sound": {"sound_id": "sforms.item.shadow_brew.consume"}
                 },
-                "minecraft:rarity": "uncommon"
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
               }
+            },
+            {
+              "function": "reference",
+              "name": "sforms:add_tooltip_lore"
             }
           ]
         }

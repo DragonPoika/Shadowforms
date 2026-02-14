@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/page_number.png",
+      "ascent": 3,
+      "height": 8,
+      "chars": [
+        "123456789",
+        "0ABCDEFGH",
+        "IJKLMNOPQ",
+        "RSTUVWXYZ"
+      ]
+    }
+  ]
+}

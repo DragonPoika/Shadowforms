@@ -1,6 +1,20 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:local_time",
+    "pattern": "MM-dd",
+    "cases": [
+      {
+        "when": "02-07",
+        "model": {
+          "type": "minecraft:model",
+          "model": "sforms:item/sacrificial_heart"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
       "model": "sforms:item/sacrificial_heart"
     }
   }
+}

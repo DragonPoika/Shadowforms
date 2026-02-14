@@ -415,7 +415,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "sforms:shadow_shot": 0
+                "sforms:shimmer_shot": 1
               }
             }
           ],
@@ -428,7 +428,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "sforms:shadow_blast": 0
+                "sforms:shadow_blast": 1
               }
             }
           ],
@@ -441,7 +441,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "sforms:shadow_blast": 0
+                "sforms:shadow_blast": 1
               }
             }
           ],

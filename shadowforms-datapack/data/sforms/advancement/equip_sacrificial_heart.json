@@ -13,7 +13,7 @@
     "description": {
       "translate": "advancement.sforms.equip_sacrificial_heart.description"
   }},
-  "parent": "sforms:find_pale_garden_altar",
+  "parent": "sforms:create_altar",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",
@@ -21,9 +21,8 @@
         "player": {
           "slots": {
             "armor.chest": {
-              "items": "minecraft:poisonous_potato",
               "predicates": {
-                "minecraft:custom_data": "{sforms:{id:\"sacricial_heart\"}}"
+                "minecraft:custom_data": "{sforms:{id:\"sacrificial_heart\"}}"
               }
             }
           }

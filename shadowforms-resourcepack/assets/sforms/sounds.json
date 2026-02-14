@@ -20,6 +20,30 @@
     ],
    "subtitle": "subtitles.sforms.blackened_heart.blood_sacrifice"
   },
+    "block.blackened_heart.activate_ritual": {
+    "sounds": [
+      "sforms:block/blackened_heart/activate_ritual"
+    ],
+   "subtitle": "subtitles.sforms.blackened_heart.activate_ritual"
+  },
+  "block.blackened_heart.fail_ritual": {
+    "sounds": [
+      "sforms:block/blackened_heart/fail_ritual"
+    ],
+   "subtitle": "subtitles.sforms.blackened_heart.fail_ritual"
+  },
+  "block.blackened_heart.kill_player": {
+    "sounds": [
+      "sforms:block/blackened_heart/kill_player"
+    ],
+   "subtitle": "subtitles.sforms.blackened_heart.kill_player"
+  },
+  "block.sacrificial_altar.initiate": {
+    "sounds": [
+      "sforms:block/sacrificial_altar/initiate"
+    ],
+   "subtitle": "subtitles.sforms.sacrificial_altar.initiate"
+  },
   "item.sacrificial_heart.idle": {
     "sounds": [
       {
@@ -46,7 +70,7 @@
       "sforms:item/orb_of_darkness/activate2",
       "sforms:item/orb_of_darkness/activate3"
     ],
-   "subtitle": "subtitles.entity.generic.drink​"
+   "subtitle": "subtitles.sforms.orb_of_darkness.use"
   },
   "item.shadow_brew.consume": {
     "sounds": [
@@ -61,9 +85,13 @@
    "subtitle": "subtitles.sforms.shadowform.exit"
   },
   "music_disc.macabre": {
-    
     "sounds": [
       "sforms:music/macabre"
+    ]
+  },
+  "music.smog.loop": {
+    "sounds": [
+      "sforms:music/gnossienne"
     ]
   }
 }

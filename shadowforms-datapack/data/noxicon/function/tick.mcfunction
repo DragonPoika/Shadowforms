@@ -1,0 +1,1 @@
+execute as @a at @s run function noxicon:do_book_stuff

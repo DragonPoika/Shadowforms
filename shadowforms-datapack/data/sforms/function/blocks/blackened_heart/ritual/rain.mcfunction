@@ -1,7 +1,11 @@
 scoreboard players set @n[tag=sforms.placed_heart,type=item_display] sforms.heart_ritual 3
-function sforms:particles/spawn_scattered_pentagram
-weather thunder 0.5d
+weather thunder 5d
 
-# add the pentagram
-execute if entity @n[scores={sforms.heart_ritual=0..},type=item_display,tag=sforms.placed_heart] run data merge entity @n[type=item_display,tag=sforms.placed_heart_pentagram] {item:{id:"armor_stand",count:1b,components:{"minecraft:item_model": "sforms:block/pentagram"}}}
-tag @n[type=item_display,tag=sforms.placed_heart] add sforms.placed_heart.finished_animation
+execute as @n[type=item,distance=..3.5,predicate=sforms:item/water_bucket] at @s run function sforms:blocks/blackened_heart/remove_items
+execute as @n[type=item,distance=..3.5,predicate=sforms:item/wind_charge] at @s run function sforms:blocks/blackened_heart/remove_items
+
+function sforms:blocks/blackened_heart/ritual_visuals
+
+tag @n[tag=sforms.placed_heart,type=item_display] add sforms.placed_heart.ritualsuccess
+
+advancement grant @a[distance=..10] only sforms:ritualistic thunder

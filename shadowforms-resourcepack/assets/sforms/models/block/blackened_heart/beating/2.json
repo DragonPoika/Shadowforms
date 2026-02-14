@@ -1,22 +1,36 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
+	"texture_size": [64, 64],
 	"textures": {
 		"0": "sforms:block/blackened_heart/beating_blackened_heart/2",
-		"particle": "sforms:block/beating_blackened_heart/2"
+		"particle": "sforms:block/blackened_heart/beating_blackened_heart/2"
 	},
 	"elements": [
 		{
-			"from": [4.5, 2, 5],
-			"to": [11.5, 7, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 2, 5]},
+			"from": [2.5, 6.5, 3.5],
+			"to": [14.5, 17.5, 12.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3, 7, 3]},
 			"faces": {
-				"north": {"uv": [9, 0, 12.5, 2.5], "texture": "#0"},
-				"east": {"uv": [7, 11, 9.5, 13.5], "texture": "#0"},
-				"south": {"uv": [9, 2.5, 12.5, 5], "texture": "#0"},
-				"west": {"uv": [9.5, 11, 12, 13.5], "texture": "#0"},
-				"up": {"uv": [7, 11.5, 3.5, 9], "texture": "#0"},
-				"down": {"uv": [3.5, 10, 0, 12.5], "texture": "#0"}
+				"north": {"uv": [0, 0, 2.75, 2.5], "texture": "#0"},
+				"east": {"uv": [2.75, 4, 4.75, 6.5], "texture": "#0"},
+				"south": {"uv": [0, 2.5, 2.75, 5], "texture": "#0"},
+				"west": {"uv": [4.75, 4, 6.75, 6.5], "texture": "#0"},
+				"up": {"uv": [5.5, 2, 2.75, 0], "texture": "#0"},
+				"down": {"uv": [5.5, 2, 2.75, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.25, 0.75, 4.5],
+			"to": [12.75, 7.25, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3, -3, 2.75]},
+			"faces": {
+				"north": {"uv": [0, 5, 2.25, 6.5], "texture": "#0"},
+				"east": {"uv": [2.25, 6.5, 3.75, 8], "texture": "#0"},
+				"south": {"uv": [5.5, 0, 7.75, 1.5], "texture": "#0"},
+				"west": {"uv": [3.75, 6.5, 5.25, 8], "texture": "#0"},
+				"up": {"uv": [7.75, 3, 5.5, 1.5], "texture": "#0"},
+				"down": {"uv": [2.25, 6.5, 0, 8], "texture": "#0"}
 			}
 		}
 	]

@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
@@ -11,34 +10,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.minecraft.music_disc_11",
-                "fallback": "Music Disc",
+                "translate": "item.sforms.music_disc",
                 "italic": false
               }
-            },
-            {
-            "function": "minecraft:set_lore",
-            "lore": [
-                [
-                {
-                    "translate": "lore.sforms.tooltip",
-                    "color": "white",
-                    "font": "sforms:tooltip",
-                    "italic": false
-
-                },
-                {
-                    "text": " "
-                },
-                {
-                    "translate": "pack.sforms",
-                    "color": "#6a3b89",
-                    "font": "minecraft:default",
-                    "italic": true
-                }
-                ]
-            ],
-                "mode": "replace_all"
             },
             {
                 "function": "minecraft:set_custom_data",
@@ -51,6 +25,10 @@
                 "item_model": "sforms:music_disc_macabre",
                 "rarity": "uncommon"
               }
+            },
+            {
+              "function": "reference",
+              "name": "sforms:add_tooltip_lore"
             }
           ]
         }

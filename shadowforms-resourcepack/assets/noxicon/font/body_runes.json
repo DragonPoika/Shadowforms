@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/ascii_runes.png",
+      "ascent": 7,
+      "chars": [
+        "abcdefghij ",
+        "klmonpqrst.",
+        "uvwxyzABCD,"
+      ]
+    }
+  ]
+}

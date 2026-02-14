@@ -1,1 +1,0 @@
-execute if predicate sforms:random/40 run scoreboard players set @s sforms.shadowed_time 100

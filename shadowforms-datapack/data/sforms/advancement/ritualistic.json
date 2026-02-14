@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_candle"
+    },
+    "title": {
+      "translate": "advancement.sforms.ritualistic"
+    },
+    "description": {
+      "translate": "advancement.sforms.ritualistic.description"
+    }
+  },
+  "parent": "sforms:do_ritual",
+  "criteria": {
+    "life": {
+      "trigger": "minecraft:impossible"
+    },
+    "death": {
+      "trigger": "minecraft:impossible"
+    },
+    "healing": {
+      "trigger": "minecraft:impossible"
+    },
+    "thunder": {
+      "trigger": "minecraft:impossible"
+    },
+    "sunny": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "death"
+    ],
+    [
+      "healing"
+    ],
+    [
+      "life"
+    ],
+    [
+      "sunny"
+    ],
+    [
+      "thunder"
+    ]
+  ]
+}

@@ -12,7 +12,6 @@
               "target": "item_name",
               "name": {
                 "translate": "item.sforms.sacrificial_heart",
-                "fallback": "Sacrificial Heart",
                 "italic": false
               }
             },
@@ -28,7 +27,6 @@
                     "with": [
                       {
                         "translate": "entity.minecraft.chicken",
-                        "fallback": "Chicken",
                         "color": "gray",
                         "italic": false
                       }
@@ -47,9 +45,9 @@
                   },
                   {
                     "translate": "pack.sforms",
-                    "color": "#6a3b89",
+                    "color": "#741313",
                     "font": "minecraft:default",
-                    "italic": true
+                    "italic": false
                   }
                 ]
 
@@ -63,14 +61,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "!food": {},
+                "!consumable": {},
                 "minecraft:item_model": "sforms:sacrificial_heart",
-                "!minecraft:consumable": {}
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "equippable": {"slot": "chest","equip_sound": {"sound_id": "sforms:item.sacrificial_heart.equip"}, "allowed_entities": "minecraft:player", "dispensable": false},
+                "equippable": {"slot": "chest","equip_sound": {"sound_id": "sforms:item.sacrificial_heart.equip"}, "allowed_entities": "#sforms:humanoid", "dispensable": true},
                 "attribute_modifiers": [
                   {
                     "type": "minecraft:fall_damage_multiplier",

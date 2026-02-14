@@ -14,7 +14,7 @@
       "translate": "advancement.sforms.get_blackened_heart.description"
     }
   },
-  "parent": "sforms:kill_shadowform",
+  "parent": "sforms:kill_strong_shadow",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

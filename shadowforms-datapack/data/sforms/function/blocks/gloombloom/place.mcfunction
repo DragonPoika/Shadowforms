@@ -1,0 +1,2 @@
+execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon item_display ~ ~.5 ~ {item:{id:"barrier",components:{"minecraft:item_model": "sforms:block/gloombloom"},count:1b},Tags:["sforms.gloombloom","smithed.block","smithed.entity","smithed.strict"]}
+execute align xyz positioned ~.5 ~ ~.5 rotated 0 ~ run summon minecraft:interaction ~ ~ ~ {width:1f,height:0.5f,Tags:["sforms.gloombloom"],response:1b}

@@ -1,0 +1,20 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{sforms:{id:\"shadow_brew\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sformsxcnk:cookbook/grant/shadow_brew"
+  }
+}

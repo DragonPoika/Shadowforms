@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" X ", " . ", " | "],
+  "key": {
+    "|": ["minecraft:stick"],
+    ".": ["minecraft:diamond"],
+    "X": ["minecraft:obsidian"]
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.sforms.athame",
+        "italic": false
+      },
+      "minecraft:lore": [
+        [
+          {
+            "translate": "lore.sforms.tooltip",
+            "color": "white",
+            "font": "sforms:tooltip",
+            "italic": false
+          },
+          {
+            "text": " "
+          },
+          {
+            "translate": "pack.sforms",
+            "color": "#741313",
+            "font": "minecraft:default",
+            "italic": false
+          }
+        ]
+      ],
+      "minecraft:custom_data": "{sforms:{id:\"athame\"}}",
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "sforms:athame",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 5
+      }
+    }
+  }
+}

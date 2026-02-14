@@ -4,6 +4,7 @@
 <p>Shadowforms is an extensive datapack that makes all mobs at light level 0 turn into shadowforms, as well as adding features centered around this mechanic.</p>
 
 <h2>Feature List</h2>
+Shadowforms also includes an in-game guide book to help the player.
 <div align="center">
   <h1>Shadowforms</h1>
   <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/shadowforms.png">
@@ -22,9 +23,9 @@
 <div align="center">
   <h1>Structures</h1>
   <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/ancient_village.png">
-  <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/pale_garden_altar.png">
+  <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/smog.png">
   <p align="center">
-    Shadowforms adds two new structures, Ancient Villages and Pale Garden Altars. Ancient Villages serve as a smaller counterpart to vanilla's Ancient Cities, and Pale Garden Altars serve as a place to obtain Sacrificial Hearts. Sacrificial Hearts can be obtained from different animals and equipped for different buffs.
+    Shadowforms adds a new structure, called Ancient Villages, and a new biome, called the Smog.
   </p>
 </div>
 <div align="center">
@@ -45,5 +46,4 @@
 <h2>Links</h2>
 <ul>
   <li><a href="https://discord.gg/hg7hgHPfWF">Discord</a></li>
-  <li><a href="https://github.com/DragonPoika/Shadowforms/wiki">Wiki</a></li>
 </ul>

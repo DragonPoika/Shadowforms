@@ -9,26 +9,17 @@
     "title": {
       "translate": "advancement.sforms.kill_strong_shadow"
     },
-    "description": {
-      "translate": "advancement.sforms.kill_strong_shadow.description"
-    }
+    "description": [
+      {"translate": "advancement.sforms.kill_strong_shadow.description"}
+    ]
   },
-  "parent": "sforms:kill_shadowform",
+  "parent": "sforms:below_y_zero",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "#sforms:evil",
-          "nbt": "{'Tags':['sforms:strong_shadow']}",
-          "location": {
-            "light": {
-              "light": {
-                "max": 1,
-                "min": 0
-              }
-            }
-          }
+          "nbt": "{'Tags':['sforms:strong_shadow']}"
         }
       }
     }

@@ -1,5 +1,6 @@
 {
     "values": [
-       "sforms:load"
+       "sforms:load",
+       "noxicon:load"
     ]
   }

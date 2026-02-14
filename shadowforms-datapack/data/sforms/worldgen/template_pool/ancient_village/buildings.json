@@ -2,121 +2,120 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 5,
+      "weight": 3,
       "element": {
-        "element_type": "minecraft:empty_pool_element"
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/building/farm/1",
+        "projection": "rigid",
+        "processors": "sforms:ancient_village"
       }
     },
     {
       "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/farm",
+        "location": "sforms:ancient_village/building/farm/2",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },
     {
       "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/farm2",
+        "location": "sforms:ancient_village/building/farm/3",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/building/house/1",
+        "projection": "rigid",
+        "processors": "sforms:ancient_village"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/building/house/2",
+        "projection": "rigid",
+        "processors": "sforms:ancient_village"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/building/house/3",
+        "projection": "rigid",
+        "processors": "sforms:ancient_village"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/building/house/4",
+        "projection": "rigid",
+        "processors": "sforms:ancient_village"
       }
     },
     {
       "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/farm3",
+        "location": "sforms:ancient_village/building/smith",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },
     {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/broken_gazebo",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/gazebo",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
       "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/bridge",
+        "location": "sforms:ancient_village/building/ore_stack",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },
     {
-      "weight": 2,
+      "weight": 39,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/bridge2",
+        "location": "sforms:ancient_village/building/vault",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },
     {
-      "weight": 3,
+      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/altar",
+        "location": "sforms:ancient_village/building/tower",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },
     {
-      "weight": 3,
+      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/painting",
+        "location": "sforms:ancient_village/building/garden",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/tower",
+        "location": "sforms:ancient_village/building/altar",
         "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/vault",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/ruin1",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/ruin2",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     }
   ]

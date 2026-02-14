@@ -1,0 +1,1 @@
+execute if entity @s[tag=!sforms.gloombloom.grown] at @s if predicate sforms:random/20 run function sforms:blocks/gloombloom/grow

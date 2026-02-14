@@ -1,6 +1,22 @@
 [
   {
-    "condition": "minecraft:random_chance",
-    "chance": 0.1
+    "condition": "all_of",
+    "terms": [
+      {
+        "condition": "random_chance",
+        "chance": 0.1
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "position": {
+            "y": {
+              "max": -10,
+              "min": -200
+            }
+          }
+        }
+      }
+    ]
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\ua069": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/noxicon/page_forward.png",
+      "ascent": 5,
+      "height": 13,
+      "chars": [
+        "\ua100\ua101"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/noxicon/page_backward.png",
+      "ascent": 5,
+      "height": 13,
+      "chars": [
+        "\ua102\ua103"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/noxicon/base.png",
+      "ascent": 0,
+      "height": 187,
+      "chars": [
+        "\ua001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/seperator.png",
+      "ascent": 4,
+      "height": 4,
+      "chars": [
+        "\ua002"
+      ]
+    }
+  ]
+}

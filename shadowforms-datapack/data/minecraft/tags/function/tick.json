@@ -1,7 +1,8 @@
 {
-    "values": [
-       "sforms:tick",
-       "sforms:blocks/tick",
-       "sforms:entities/tick"
-    ]
-  }
+   "values": [
+      "sforms:tick",
+      "sforms:blocks/tick",
+      "sforms:entities/tick",
+      "noxicon:tick"
+   ]
+}

@@ -1,0 +1,1 @@
+execute at @s run function sforms:blocks/gloombloom/get_sheared_loser

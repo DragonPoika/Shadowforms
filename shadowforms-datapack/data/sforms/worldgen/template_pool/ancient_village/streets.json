@@ -2,50 +2,58 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:empty_pool_element"
       }
     },
     {
-      "weight": 2,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/streets/street_1",
+        "location": "sforms:ancient_village/street/1",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },{
-      "weight": 2,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/streets/street_2",
+        "location": "sforms:ancient_village/street/2",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },{
-      "weight": 2,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/streets/street_3",
+        "location": "sforms:ancient_village/street/3",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },{
-      "weight": 3,
+      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/streets/street_4",
+        "location": "sforms:ancient_village/street/4",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     },{
-      "weight": 2,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sforms:ancient_village/streets/street_5",
+        "location": "sforms:ancient_village/street/5",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sforms:ancient_village/street/6",
+        "projection": "rigid",
+        "processors": "sforms:ancient_village"
       }
     }
   ]

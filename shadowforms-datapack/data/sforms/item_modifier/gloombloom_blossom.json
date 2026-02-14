@@ -1,0 +1,8 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "sforms:block/gloombloom_blossoming"
+    }
+  }
+]

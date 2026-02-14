@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "id": "minecraft:iron_sword",
+      "components": {
+        "item_model": "sforms:blackened_heart"
+      }
     },
     "title": {
       "translate": "pack.sforms"
@@ -10,7 +13,8 @@
       "translate": "chat.sforms.description"
     },
     "background": "minecraft:block/deepslate",
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "criteria": {
     "requirement": {
@@ -18,6 +22,9 @@
     }
   },
   "rewards": {
-    "function": "sforms:joined_first_time"
+    "function": "sforms:chat/joined_first_time",
+    "loot": [
+      "sforms:items/noxicon"
+    ]
   }
 }

@@ -1,0 +1,15 @@
+{
+    "values": [
+        "player",
+        "#illager",
+        "villager",
+        "zombie_villager",
+        "#skeletons",
+        "#zombies",
+        "witch",
+        "piglin",
+        "piglin_brute",
+        "zombified_piglin",
+        "mannequin"
+    ]
+}

@@ -1,0 +1,4 @@
+execute positioned ~1 ~ ~ if block ~ ~ ~ #air unless entity @n[type=interaction,tag=sforms.gloombloom,distance=...1] run function sforms:blocks/gloombloom/place
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #air unless entity @n[type=interaction,tag=sforms.gloombloom,distance=...1] run function sforms:blocks/gloombloom/place
+execute positioned ~ ~ ~1 if block ~ ~ ~ #air unless entity @n[type=interaction,tag=sforms.gloombloom,distance=...1] run function sforms:blocks/gloombloom/place
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #air unless entity @n[type=interaction,tag=sforms.gloombloom,distance=...1] run function sforms:blocks/gloombloom/place

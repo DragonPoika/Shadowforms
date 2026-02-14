@@ -1,6 +1,6 @@
 {
   "display": {
-"icon": {
+    "icon": {
       "id": "minecraft:barrier",
       "count": 1,
       "components": {
@@ -14,16 +14,14 @@
       "translate": "advancement.sforms.get_orb_of_darkness.description"
     }
   },
-  "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+  "parent": "sforms:kill_strong_shadow",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:warped_fungus_on_a_stick"
-            ],
+            "items": ["minecraft:warped_fungus_on_a_stick"],
             "predicates": {
               "minecraft:custom_data": "{sforms:{id:'orb_of_darkness'}}"
             }

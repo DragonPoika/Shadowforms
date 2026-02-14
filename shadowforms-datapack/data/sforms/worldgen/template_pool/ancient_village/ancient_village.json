@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "location": "sforms:ancient_village/town_center",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "sforms:ancient_village"
       }
     }
   ]

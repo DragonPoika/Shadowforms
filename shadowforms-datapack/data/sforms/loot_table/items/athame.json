@@ -1,63 +1,41 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "target": "item_name",
-                "name": {
-                  "translate": "item.sforms.athame",
-                  "fallback": "Athame",
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  [
-                    {
-                      "translate": "lore.sforms.tooltip",
-                      "color": "white",
-                      "font": "sforms:tooltip",
-                      "italic": false
-  
-                    },
-                    {
-                      "text": " "
-                    },
-                    {
-                      "translate": "pack.sforms",
-                      "color": "#6a3b89",
-                      "font": "minecraft:default",
-                      "italic": true
-                    }
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": "{sforms:{id:\"athame\"}}"
-              },
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_model": "sforms:athame",
-                  "minecraft:rarity": "uncommon",
-                  "minecraft:weapon": {
-                    "item_damage_per_attack": 3
-                  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.sforms.athame",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sforms:{id:\"athame\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sforms:athame",
+                "minecraft:rarity": "uncommon",
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 5
                 }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "reference",
+              "name": "sforms:add_tooltip_lore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancement.sforms.create_altar"
+    },
+    "description": {
+      "translate": "advancement.sforms.create_altar.description"
+    }
+  },
+  "parent": "sforms:kill_strong_shadow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {}
+}

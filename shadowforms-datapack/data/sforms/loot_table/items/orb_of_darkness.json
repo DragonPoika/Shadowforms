@@ -16,7 +16,6 @@
               "target": "item_name",
               "name": {
                 "translate": "item.sforms.orb_of_darkness",
-                "fallback": "Orb of Darkness",
                 "italic": false
               }
             },
@@ -25,35 +24,36 @@
               "lore": [
                 [
                   {
-                    "translate": "lore.sforms.tooltip",
-                    "color": "white",
-                    "font": "sforms:tooltip",
+                    "translate": "lore.sforms.action1",
+                    "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": " "
+                    "keybind": "key.use",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
                   },
                   {
-                    "translate": "pack.sforms",
-                    "color": "#6a3b89",
-                    "font": "minecraft:default",
-                    "italic": true
+                    "translate": "lore.sforms.action2",
+                    "color": "gray",
+                    "italic": false
                   }
-                ]
+                ],
+                [""]
               ],
               "mode": "replace_all"
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "sforms:orb_of_darkness/unactivated"
+                "minecraft:item_model": "sforms:orb_of_darkness/unactivated",
+                "minecraft:rarity": "uncommon"
               }
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:rarity": "uncommon"
-              }
+              "function": "reference",
+              "name": "sforms:add_tooltip_lore"
             }
           ]
         }

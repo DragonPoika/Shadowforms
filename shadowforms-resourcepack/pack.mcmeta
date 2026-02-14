@@ -1,7 +1,16 @@
 {
   "pack": {
-    "id": "sforms",
-    "pack_format": 63,
-    "description": [{"text":"Shadowforms v1.6.0 Hotfix 1\n"},{"text":"As the Sun Rose","color":"dark_red"}]
+    "description": [
+      {
+        "text": "Shadowforms: Compis Mentis\n",
+        "color": "#c6bde9"
+      },
+      {
+        "text": "v1.7.0",
+        "color": "gray"
+      }
+    ],
+    "min_format": 75,
+    "max_format": 75
   }
 }
