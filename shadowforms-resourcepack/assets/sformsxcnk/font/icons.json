@@ -4,7 +4,7 @@
         {"type":"bitmap","file":"sformsxcnk:icons/item/gloombloom_blossom.png","ascent":15,"height":16,"chars":["\uc001"]},
         {"type":"bitmap","file":"sformsxcnk:icons/item/gloombloom_risotto.png","ascent":15,"height":16,"chars":["\uc002"]},
         {"type":"bitmap","file":"sformsxcnk:icons/item/shade_hide.png","ascent":15,"height":16,"chars":["\uc003"]},
-        {"type":"bitmap","file":"minecraft:item/fermented_spider_eye.png","ascent":15,"height":16,"chars":["\uc004"]},
-        {"type":"bitmap","file":"sformsxcnk:icons/item/shade_hide.png","ascent":15,"height":16,"chars":["\ue001"]}
+        {"type":"bitmap","file":"sformsxcnk:icons/item/fermented_spider_eye.png","ascent":15,"height":16,"chars":["\uc004"]},
+        {"type":"bitmap","file":"sformsxcnk:icons/item/sforms_indicator.png","ascent":6,"height":8,"chars":["\ue001"]}
     ]
 }

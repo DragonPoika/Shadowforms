@@ -6,8 +6,8 @@
       "conditions": {
         "items": [
           {
-            "components": {
-              "minecraft:custom_data": "{sforms:{id:\"gloombloom_blossom\"}}"
+            "predicates": {
+              "minecraft:custom_data": {"sforms":{"id":"gloombloom_blossom"}}
             }
           }
         ]
