@@ -1,6 +1,6 @@
 {
   "pack.sforms": "Shadowforms",
-  "chat.sforms.version": "Compis Mentis / v1.7.0",
+  "chat.sforms.version": "Compis Mentis / v1.7.2",
   "chat.sforms.description": "Laaja datapaketti, joka muuttaa kaikista hirviöistä pimeässä paikassa shadowformin. Datapaketti lisää myös muita ominaisuuksia tämän ympärille.",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Shadowforms debug] ",

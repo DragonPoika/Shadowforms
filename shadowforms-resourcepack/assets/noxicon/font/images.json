@@ -198,13 +198,13 @@
     },
     {
       "type": "bitmap",
-      "file": "noxicon:gui/rituals/thunder.png",
+      "file": "noxicon:gui/rituals/sunny.png",
       "ascent": 55,
       "height": 144,
       "chars": [
         "\ua022"
       ]
-    },
+    }, 
     {
       "type": "bitmap",
       "file": "noxicon:gui/rituals/thunder.png",

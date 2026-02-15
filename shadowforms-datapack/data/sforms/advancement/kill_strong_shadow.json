@@ -19,7 +19,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "nbt": "{'Tags':['sforms:strong_shadow']}"
+          "nbt": "{Tags:[sforms.strong_shadow]}"
         }
       }
     }

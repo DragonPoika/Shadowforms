@@ -4,8 +4,8 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "components": {
-          "custom_data": "{sforms:{id:\"orb_of_darkness\"}}"
+        "predicates": {
+          "minecraft:custom_data": "{sforms:{id:\"orb_of_darkness\"}}"
         }
       }
     }

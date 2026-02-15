@@ -1,5 +1,6 @@
 scoreboard players set @n[tag=sforms.placed_heart,type=item_display] sforms.heart_ritual 1
 
+
 execute as @n[type=item,distance=..3.5,predicate=sforms:item/amethyst_shard] at @s run function sforms:blocks/blackened_heart/remove_items
 execute as @n[type=item,distance=..3.5,predicate=sforms:item/experience_bottle] at @s run function sforms:blocks/blackened_heart/remove_items
 execute as @n[type=item,distance=..3.5,predicate=sforms:item/phantom_membrane] at @s run function sforms:blocks/blackened_heart/remove_items

@@ -1,5 +1,6 @@
 scoreboard players set @n[tag=sforms.placed_heart,type=item_display] sforms.heart_ritual 6
 
+
 execute as @n[type=item,distance=..3.5,predicate=sforms:item/water_bucket] at @s run function sforms:blocks/blackened_heart/remove_items
 execute as @n[type=item,distance=..3.5,predicate=sforms:item/bone_block] at @s run function sforms:blocks/blackened_heart/remove_items
 

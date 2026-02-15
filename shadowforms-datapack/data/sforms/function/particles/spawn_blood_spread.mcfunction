@@ -4,4 +4,5 @@ summon text_display ^ ^0.5 ^.3 {billboard:"center",alignment:"center",background
 summon text_display ^.5 ^1.2 ^.2 {billboard:"center",alignment:"center",background:16777215,Tags:[sforms.particle.blood],teleport_duration:2,text:{translate:"particles.sforms.blood",color: "white",font:"sforms:particles"}}
 summon text_display ^-.2 ^0.8 ^.5 {billboard:"center",alignment:"center",background:16777215,Tags:[sforms.particle.blood],teleport_duration:2,text:{translate:"particles.sforms.blood",color: "white",font:"sforms:particles"}}
 
-execute as @e[type=text_display,tag=sforms.particle.blood,limit=5,sort=nearest] at @s run tp @s ~ ~ ~ facing entity @n[tag=sforms.placed_heart,type=item_display] eyes
+scoreboard players set @e[tag=sforms.particle.blood,limit=5,sort=nearest,distance=0..,type=text_display] sforms.particle.lifetime 60
+execute as @e[tag=sforms.particle.blood,limit=5,sort=nearest,distance=0..,type=text_display] at @s run tp @s ~ ~ ~ facing entity @n[tag=sforms.placed_heart,distance=0..,type=item_display] eyes

@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:barrier",
             "components": {
-                "item_model": "sforms:block/gloombloom_bulb"
+                "item_model": "sforms:item/gloombloom_bulb"
             }
         },
         "title": {
@@ -13,6 +13,7 @@
             "translate": "advancement.sforms.shear_gloombloom_blossom.description"
         }
     },
+    "parent": "sforms:find_the_smog",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_interacted_with_entity",

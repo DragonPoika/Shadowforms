@@ -1,4 +1,5 @@
 scoreboard players set @n[tag=sforms.placed_heart,type=item_display] sforms.heart_ritual 3
+
 weather thunder 5d
 
 execute as @n[type=item,distance=..3.5,predicate=sforms:item/water_bucket] at @s run function sforms:blocks/blackened_heart/remove_items
