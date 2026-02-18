@@ -1,6 +1,6 @@
 {
   "pack.sforms": "Schattengestalten",
-  "chat.sforms.version": "Compis Mentis / v1.7.2",
+  "chat.sforms.version": "Compis Mentis / v1.7.3",
   "chat.sforms.description": "Extensives Datapack, das alle Monster bei Helligkeit 0 in Schattengestalten verwandelt, sowie einige dazugehörige Features hinzufügt",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Schattengestalten Debug] ",

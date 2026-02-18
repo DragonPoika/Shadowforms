@@ -8,7 +8,7 @@
           "items": [
             "minecraft:poisonous_potato"
           ],
-          "components": {
+          "predicates": {
             "custom_data": "{sforms:{id:\"shadow_brew\"}}"
           }
         }

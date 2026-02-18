@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:barrier",
             "components": {
-                "item_model": "sforms:item/gloombloom_bulb"
+                "item_model": "sforms:gloombloom_bulb"
             }
         },
         "title": {

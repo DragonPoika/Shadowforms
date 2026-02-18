@@ -1,6 +1,6 @@
 {
   "pack.sforms": "Shadowforms",
-  "chat.sforms.version": "Compis Mentis / v1.7.2",
+  "chat.sforms.version": "Compis Mentis / v1.7.3",
   "chat.sforms.description": "Extensive datapack that makes all mobs at light level 0 turn into shadowforms, as well as adding features centered around this mechanic",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Shadowforms debug] ",
