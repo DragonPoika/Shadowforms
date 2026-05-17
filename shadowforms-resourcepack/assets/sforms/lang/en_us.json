@@ -1,6 +1,6 @@
 {
   "pack.sforms": "Shadowforms",
-  "chat.sforms.version": "Compis Mentis / v1.7.3",
+  "chat.sforms.version": "Compis Mentis / v1.7.4",
   "chat.sforms.description": "Extensive datapack that makes all mobs at light level 0 turn into shadowforms, as well as adding features centered around this mechanic",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Shadowforms debug] ",
@@ -36,6 +36,10 @@
   "dialog.sforms.links.modrinth": " Modrinth",
   "dialog.sforms.links.modrinth.icon": "\ua009",
 
+  "dialog.sforms.settings.dcf_on": "Turn DCF on",
+  "dialog.sforms.settings.dcf_off": "Turn DCF off",
+  "dialog.sforms.settings.dcf_desc": "Dynamic Command Feedback dynamically disables the send_command_feedback gamerule when you're reading the Noxicon. This removes some of the spam that dialogs can unfortunately cause.",
+
   "chat.sforms.credits.title": "Credits\n",
   "chat.sforms.credits.toast.title": "Toast\n",
   "chat.sforms.credits.toast": "  - Creator, Developer, Artist\n",
@@ -46,7 +50,7 @@
   "chat.sforms.credits.gammos.title": "Gammos\n",
   "chat.sforms.credits.gammos": "  - Noxicon Code Help\n",
   "chat.sforms.credits.translators.title": "Translators\n",
-  "chat.sforms.credits.translators": "  - Vitemyn (Vietnamese)\n  - 14QQ14 (Polish)\n  - Toast (Finnish)\n  - Sunweaver (French)\n",
+  "chat.sforms.credits.translators": "  - Toast (Finnish)\n  - Gammos (German)\n",
 
   "chat.sforms.blackened_heart.kill_player.1": "\ua005",
   "chat.sforms.blackened_heart.kill_player.2": "\ua006     ",
@@ -62,6 +66,7 @@
   "item.sforms.shadow_brew": "Shadow Brew",
   "item.sforms.gloombloom_blossom": "Gloombloom Blossom",
   "item.sforms.gloombloom_bulb": "Gloombloom Bulb",
+  "item.sforms.smog_explorer_map": "Smog Explorer Map",
   "item.sforms.athame": "Athame",
   "item.sforms.noxicon": "Noxicon",
   "item.sforms.sacrificial_heart": "Sacrificial Heart",

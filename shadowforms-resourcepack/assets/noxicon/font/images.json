@@ -204,7 +204,7 @@
       "chars": [
         "\ua022"
       ]
-    }, 
+    },
     {
       "type": "bitmap",
       "file": "noxicon:gui/rituals/thunder.png",
@@ -214,13 +214,22 @@
         "\ua023"
       ]
     },
-        {
+    {
       "type": "bitmap",
       "file": "noxicon:gui/gloombloom_full.png",
       "ascent": 55,
       "height": 144,
       "chars": [
         "\ua024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "noxicon:gui/rituals/process.png",
+      "ascent": 55,
+      "height": 144,
+      "chars": [
+        "\ua025"
       ]
     }
   ]

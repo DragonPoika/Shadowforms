@@ -1,6 +1,6 @@
 {
   "pack.sforms": "Schattengestalten",
-  "chat.sforms.version": "Compis Mentis / v1.7.3",
+  "chat.sforms.version": "Compis Mentis / v1.7.4",
   "chat.sforms.description": "Extensives Datapack, das alle Monster bei Helligkeit 0 in Schattengestalten verwandelt, sowie einige dazugehörige Features hinzufügt",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Schattengestalten Debug] ",
@@ -34,7 +34,7 @@
   "chat.sforms.credits.gammos.title": "Gammos\n",
   "chat.sforms.credits.gammos": "  - Noxicon Programmierungsunterstützung\n",
   "chat.sforms.credits.translators.title": "Translators\n",
-  "chat.sforms.credits.translators": "  - Vitemyn (vietnamesisch)\n  - 14QQ14 (polnisch)\n  - Toast (finnisch)\n  - Sunweaver (französisch)\n",
+  "chat.sforms.credits.translators": "  - Toast (finnisch)\n  - Gammos (deutsch)\n",
 
   "chat.sforms.blackened_heart.kill_player.1": "\ua005",
   "chat.sforms.blackened_heart.kill_player.2": "\ua006     ",

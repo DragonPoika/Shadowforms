@@ -81,7 +81,7 @@ if block ~-2 ~ ~2 orange_candle[lit=true] \
 if block ~2 ~ ~-2 orange_candle[lit=true] \
 if block 1 ~ ~ orange_candle[lit=true] \
 if block -1 ~ ~ orange_candle[lit=true] \
-if block ~ ~ ~1 orange_candle[lit=true] \
+if block ~ ~ ~-1 orange_candle[lit=true] \
 if block ~ ~ ~1 orange_candle[lit=true] \
 if entity @n[distance=..3.5,predicate=sforms:item/bone_block,type=item] \
 if entity @n[distance=..3.5,predicate=sforms:item/water_bucket,type=item] \

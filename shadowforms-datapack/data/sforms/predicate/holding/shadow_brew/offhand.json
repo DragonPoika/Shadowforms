@@ -4,10 +4,7 @@
     "predicate": {
       "equipment": {
         "offhand": {
-          "items": [
-            "minecraft:poisonous_potato"
-          ],
-          "components": {
+          "predicates": {
             "minecraft:custom_data": "{sforms:{id:\"shadow_brew\"}}"
           }
         }

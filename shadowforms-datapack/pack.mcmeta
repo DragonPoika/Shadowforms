@@ -7,14 +7,14 @@
         "color": "#c6bde9"
       },
       {
-        "text": "v1.7.3",
+        "text": "v1.7.4",
         "color": "gray"
       }
     ],
     "min_format": [
-      94,
+      101,
       1
     ],
-    "max_format": 94
+    "max_format": 101
   }
 }

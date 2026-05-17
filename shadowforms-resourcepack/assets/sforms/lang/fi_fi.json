@@ -1,6 +1,6 @@
 {
   "pack.sforms": "Shadowforms",
-  "chat.sforms.version": "Compis Mentis / v1.7.3",
+  "chat.sforms.version": "Compis Mentis / v1.7.4",
   "chat.sforms.description": "Laaja datapaketti, joka muuttaa kaikista hirviöistä pimeässä paikassa shadowformin. Datapaketti lisää myös muita ominaisuuksia tämän ympärille.",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Shadowforms debug] ",
@@ -34,7 +34,7 @@
   "chat.sforms.credits.gammos.title": "Gammos\n",
   "chat.sforms.credits.gammos": "  - Pimeystön koodin apua\n",
   "chat.sforms.credits.translators.title": "Kääntäjä\n",
-  "chat.sforms.credits.translators": "  - Vitemyn (vietnamin kieli)\n  - 14QQ14 (puolan kieli)\n  - Toast (suomen kieli)\n",
+  "chat.sforms.credits.translators": "  - Toast (suomen kieli)\n.  - Gammos (saksan kieli)",
 
   "chat.sforms.blackened_heart.kill_player.1": "\ua005",
   "chat.sforms.blackened_heart.kill_player.2": "\ua006     ",

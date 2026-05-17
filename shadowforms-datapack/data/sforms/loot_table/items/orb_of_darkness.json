@@ -48,7 +48,9 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "sforms:orb_of_darkness/unactivated",
-                "minecraft:rarity": "uncommon"
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_damage": 4,
+                "minecraft:max_stack_size": 1
               }
             },
             {

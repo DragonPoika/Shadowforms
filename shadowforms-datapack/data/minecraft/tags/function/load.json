@@ -1,6 +1,12 @@
 {
     "values": [
        "sforms:load",
-       "noxicon:load"
+       "sforms:10t_clock",
+       "sforms:2s_clock",
+       "sforms:3s_clock",
+       "sforms:blocks/gloombloom/growth_timer",
+       "noxicon:load",
+       "dcf:loaded",
+       "dcf:tick_40"
     ]
   }

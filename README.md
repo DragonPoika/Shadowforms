@@ -43,6 +43,12 @@ Shadowforms also includes an in-game guide book to help the player.
   </p>
 </div>
 
+<h2>Good to know</h2>
+<ul>
+  <li>Shadowforms and <a href="https://modrinth.com/datapack/crop-and-kettle">Crop and Kettle</a> have additional features if you have both datapacks installed!</li>
+  <li>Due to datapack jank, the in-game guidebook may spam the chat with command gibberish. Fortunately, Shadowforms includes a handy tool called Dynamic Command Feedback which can be toggled with /function dcf:on and /function dcf:off. The <a href="https://modrinth.com/mod/unjank">Unjank mod</a> is also recommended but not required!</li>
+</ul>
+
 <h2>Links</h2>
 <ul>
   <li><a href="https://discord.gg/hg7hgHPfWF">Discord</a></li>

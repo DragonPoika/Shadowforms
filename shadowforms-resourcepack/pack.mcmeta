@@ -6,11 +6,11 @@
         "color": "#c6bde9"
       },
       {
-        "text": "v1.7.3",
+        "text": "v1.7.4",
         "color": "gray"
       }
     ],
-    "min_format": 75,
-    "max_format": 75
+    "min_format": 84,
+    "max_format": 84
   }
 }

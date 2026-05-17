@@ -13,9 +13,4 @@ scoreboard objectives add sforms.particle.lifetime dummy
 scoreboard objectives add sforms.credits trigger
 scoreboard players enable @a sforms.credits
 
-function sforms:10t_clock
-function sforms:2s_clock
-function sforms:3s_clock
-function sforms:blocks/gloombloom/growth_timer
-
 tellraw @a [{translate:"lore.sforms.tooltip",font:"sforms:tooltip"}," ",{text:"Shadowforms loaded",color:"white",font:"default"}]
